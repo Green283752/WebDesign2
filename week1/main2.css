@@ -1,13 +1,15 @@
 @charset "UTF-8";
+@import url("layout.css");
+@import url("colors.css");
 /*first responsive site*/
 	.nav {width:20px;padding-left:15px;padding-bottom:30px;}
 ul {padding-left:0; list-style-type:none;}
 li {display: inline-block;}
-li a {diplay:block; text-align: center;color: white;font-weight: bold;font-size: 18.25pt;padding: 2px .5%;width: 22%;padding-bottom: 30px;}
-a:link {color:white; text-align:center; text-decoration:none; background-color:seagreen;} 
-a:visited {background-color:seagreen; font-color:white;}
-a:hover {background-color:#91cceb; color:white;} 
-a:active {background-color:#e3b9d7;color:white;} 
+li a {diplay:block; text-align: center;color: seagreen;padding: 2px .5%;width: 22%;}
+a:link {color: seagreen; text-align:center; text-decoration:none;} 
+a:visited  {font-color: seagreen;}
+a:hover {background-color:#91cceb; color:seagreen;} 
+a:active {background-color:#e3b9d7;color:seagreen;} 
 body {margin: 0px;font-family: Ariel, Helvetica, sans-serif; 
 }
 .logo{max-width:75px; margin:15px;}

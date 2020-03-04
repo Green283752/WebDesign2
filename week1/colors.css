@@ -1,0 +1,43 @@
+.red-bg{
+    background-color: rgb(218, 67, 67);
+}
+
+.green-bg{ 
+    background-color: rgb(31, 109, 31);
+}
+
+.blue-bg {
+    background-color: rgb(56, 56, 151);
+}
+
+.yellow-bg {
+    background-color: rgb(245, 248, 60);
+}
+
+.purple-bg {
+    background-color: rgb(102, 11, 167);
+}
+
+@media (min-width: 550px) {
+    .w-md-50 {
+        width: 50%;
+    }
+  .w-md-33 {
+      width: 33.3%;
+  }
+  .w-md-25 {
+      width: 25%
+  }
+}
+/* END OF MD QUERY */
+
+@media (min-width: 960px) {
+    .w-lg-100 {
+        width: 100%;
+    }
+
+    .w-lg-50 {
+    width: 50%;
+}
+}
+/* END OF LG QUERY */
