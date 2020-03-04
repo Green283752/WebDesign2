@@ -11,12 +11,40 @@ a:hover {background-color:#91cceb; color:white;}
 a:active {background-color:#e3b9d7;color:white;} 
 body {margin: 0px;font-family: Ariel, Helvetica, sans-serif; 
 }
+.logo{max-width:75px; margin:15px;}
+
 #toggleAssist, 
 ul.nav-links {
 	display:none;
 }
 
 #toggleAssist:checked + ul.nav-links{display:block;}
+
+#toggle-button {
+    width: 40px; 
+    float: right; 
+    margin: 15px;
+}
+
+ul.nav-links {
+   list-style: none;
+   padding-left: 0px;
+
+}
+
+ul.nav.links.li {
+   padding: 10px;
+   border-bottom: 2px solid dodgerblue;
+
+}
+
+ul.nav.links.a {
+     text-decoration: none; 
+     text-transform: uppercase; 
+     color: #4c604c
+
+}
+
 
 /*home*/
 
@@ -36,5 +64,3 @@ h2 {font-size: 24pt;margin-left: 70px;font-family: tomorrow;}
 /*about*/
 
 /*contact*/
-
-
