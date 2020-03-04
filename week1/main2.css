@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /*first responsive site*/
-@media (min-width: 768px)
 	.nav {width:20px;padding-left:15px;padding-bottom:30px;}
 ul {padding-left:0; list-style-type:none;}
 li {display: inline-block;}
@@ -20,7 +19,7 @@ ul.nav-links {
 
 #toggleAssist:checked + ul.nav-links{display:block;}
 
-#toggle-button {
+.toggle-button {
     width: 40px; 
     float: right; 
     margin: 15px;
@@ -44,6 +43,25 @@ ul.nav.links.a {
      color: #4c604c
 
 }
+
+@media (min-width: 550px) {
+    .toggle-button {
+        display: none;
+    }
+
+    ul.nav-links {
+        display: block; 
+        float: right; 
+        margin-top: 35px;
+    }
+
+    ul.nav-links li {
+        display: inline-block;
+        border-bottom: none;
+    }
+} /* END OF MID-SCREEN MEDIA QUERY */
+
+
 
 
 /*home*/
