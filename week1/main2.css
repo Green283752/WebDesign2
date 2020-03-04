@@ -61,6 +61,13 @@ ul.nav.links.a {
     }
 } /* END OF MID-SCREEN MEDIA QUERY */
 
+@media (min-width: 960px) {
+    header {
+        width: 960px;
+        margin: auto;
+    }
+
+} /* END OF LARGE SCREEN MEDIA QUERY */
 
 
 
