@@ -1,22 +1,85 @@
-.red-bg{
-    background-color: rgb(218, 67, 67);
+.blue1-bg{
+    background-color: rgb(142, 223, 248);
 }
 
-.green-bg{ 
-    background-color: rgb(31, 109, 31);
+.blue2-bg{ 
+    background-color: rgb(72, 146, 241);
 }
 
-.blue-bg {
-    background-color: rgb(56, 56, 151);
+.blue3-bg {
+    background-color: rgb(160, 170, 214);
 }
 
-.yellow-bg {
-    background-color: rgb(245, 248, 60);
+.blue4-bg {
+    background-color: rgb(86, 79, 146);
 }
 
-.purple-bg {
-    background-color: rgb(102, 11, 167);
+.blue5-bg {
+    background-color: rgb(37, 37, 114);
 }
+
+.green1-bg{
+    background-color: rgb(167, 238, 211);
+}
+
+.green2-bg{ 
+    background-color: rgb(37, 114, 95);
+}
+
+.green3-bg {
+    background-color: rgb(114, 221, 149);
+}
+
+.green4-bg {
+    
+    background-color: rgb(51, 150, 51);
+}
+
+.green5-bg {
+    background-color: rgb(40, 92, 27);
+}
+
+
+.orange1-bg{
+    background-color: rgb(252, 216, 151);
+}
+
+.orange2-bg{ 
+    background-color: rgb(243, 180, 63);
+}
+
+.orange3-bg { 
+    background-color: rgb(238, 175, 104);
+}
+
+.orange4-bg {
+    background-color: rgb(238, 135, 17);
+}
+
+.orange5-bg {
+    background-color: rgb(201, 89, 37);
+}
+
+.purple1-bg{
+    background-color: rgb(240, 151, 252);
+}
+
+.purple2-bg{ 
+    background-color: rgb(119, 11, 129);
+}
+
+.purple3-bg { 
+    background-color: rgb(184, 119, 236);
+}
+
+.purple4-bg {
+    background-color: rgb(162, 73, 214);
+}
+
+.purple5-bg {
+    background-color: rgb(77, 8, 122); 
+}
+
 
 @media (min-width: 550px) {
     .w-md-50 {
