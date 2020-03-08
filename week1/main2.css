@@ -2,7 +2,7 @@
 @import url("layout.css");
 @import url("colors.css");
 /*first responsive site*/
-	.nav {width:20px;padding-left:15px;padding-bottom:30px;}
+	.nav {width:20px;padding-left:15px;padding-bottom:30px; padding-right:20px;}
 ul {padding-left:0; list-style-type:none;}
 li {display:block; text-align:right; border-bottom: 2px black solid; padding: 5px 0px;}
 li a {display:block; text-align: center;color: seagreen;padding: 2px .5%;width: 22%;}
@@ -23,7 +23,7 @@ ul.nav-links {
 #toggleAssist:checked + ul.nav-links{display:block;}
 
 .toggle-button {
-    width: 40px; 
+    width: 55px; 
     float: right; 
     margin: 15px;
 }
@@ -47,6 +47,14 @@ ul.nav.links.a {
 
 }
 
+/*products page*/
+.toggle-button2 {
+    width: 60px; 
+    float: right; 
+    margin: 15px;
+}
+
+
 @media (min-width: 550px) {
     .toggle-button {
         display: none;
@@ -56,6 +64,7 @@ ul.nav.links.a {
         display: block; 
         float: right; 
         margin-top: 35px;
+        margin-right: 20px;
     }
 
     ul.nav-links li {
