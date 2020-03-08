@@ -47,12 +47,6 @@ ul.nav.links.a {
 
 }
 
-/*products page*/
-.toggle-button2 {
-    width: 60px; 
-    float: right; 
-    margin: 15px;
-}
 
 
 @media (min-width: 550px) {
