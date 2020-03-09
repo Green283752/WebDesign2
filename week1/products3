@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>index</title>
+    <link href="main2.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <img class="logo" src="images/apple.jpg">
+                <label for ="toggleAssist">
+                <img src= "images/sandwich4.jpg" alt=" hamburger menu icon" class= "toggle-button">
+
+            </label>
+                <input type="checkbox" 
+                       id= "toggleAssist">
+                <ul class= "nav-links">
+                    <li> <a href="index5.html">Home</a></li>
+                    <li> <a href="products2.html">Products</a></li>
+                    <li> <a href="contact2.html">Contact</a></li>
+                    <li id= "about"> <a href="about2.html">About</a></li> 
+                </ul>
+               
+            </nav>
+        </header>
+        <main> 
+           <div class= "floater w-100 w-md-50 blue1-bg">
+              <p></p> 
+           </div>
+           <div class= "floater w-100 w-md-50 blue2-bg">
+            <p></p> 
+           </div>
+           <div class= "floater w-100 w-md-33 w-lg-100 blue3-bg">
+            <p></p> 
+          </div>
+         <div class= "floater w-100 w-md-33 w-lg-50 blue4-bg">
+            <p></p> 
+        </div>
+        <div class= "floater w-100 w-md-33 w-lg-50 blue5-bg">
+            <p></p> 
+        </div>
+
+
+     </div>
+        </main>
+        <footer> 
+        </footer>
+    </body>
+    </html>
