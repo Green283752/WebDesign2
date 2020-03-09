@@ -10,7 +10,8 @@ a:link {color:seagreen; text-align:center; text-decoration:none;}
 a:visited {color:seagreen;} 
 a:hover {background-color:#91cceb; color:seagreen;} 
 a:active {background-color:#e3b9d7;color:seagreen;} 
-body {margin: 0px;font-family: Arial, Helvetica, sans-serif; 
+body {margin: 0px;font-family: Arial, Helvetica, sans-serif; padding-left: 20px;
+    padding-right: 20px; padding-left: 20px;
 }
 .logo{max-width:75px; margin:15px;}
 #about {border-bottom: none;}
@@ -74,24 +75,3 @@ ul.nav.links.a {
     }
 
 } /* END OF LARGE SCREEN MEDIA QUERY */
-
-
-
-/*home*/
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-.row {height: 350px;width:1000px;}
-.column{height:1000px;width:350px;}
-.footer {}
-.textbox1 {width: 100%; overflow:auto; margin:0; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"}
-.location-text1 {padding-bottom: 30px;text-align: justify; text-justify: inter-word;hanging-punctuation:force-end; width:40%; background-color:white; float: left; margin-left: 70px; margin-top: 0px; margin-right:0px;margin-bottom:0px;font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif"; right-padding: 0px;}
-h2 {font-size: 24pt;margin-left: 70px;font-family: tomorrow;}
-
-/*products*/
-
-/*about*/
-
-/*contact*/
