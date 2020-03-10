@@ -8,8 +8,8 @@ li {display:block; text-align:right; border-bottom: 2px black solid; padding: 5p
 li a {display:block; text-align: center;color: seagreen;padding: 2px .5%;width: 22%;}
 a:link {color:seagreen; text-align:center; text-decoration:none;} 
 a:visited {color:seagreen;} 
-a:hover {background-color:#91cceb; color:seagreen;} 
-a:active {background-color:#e3b9d7;color:seagreen;} 
+a:hover {color:seagreen;} 
+a:active {color:seagreen;} 
 body {margin: 0px;font-family: Arial, Helvetica, sans-serif; padding-left: 20px;
     padding-right: 20px; padding-left: 20px;
 }
