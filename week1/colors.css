@@ -18,6 +18,18 @@
     background-color: rgb(37, 37, 114);
 }
 
+.blue6-bg {
+    background-color: rgb(156, 221, 241);
+}
+
+.blue7-bg {
+    background-color: rgb(183, 228, 241);
+}
+
+.blue8-bg {
+    background-color: rgb(215, 242, 250);
+}
+
 .green1-bg{
     background-color: rgb(167, 238, 211);
 }
@@ -43,6 +55,17 @@
     background-color: rgb(132, 212, 163);
 }
 
+.green7-bg {
+    background-color: rgb(173, 241, 199);
+}
+
+.green8-bg {
+    background-color: rgb(200, 243, 216);
+}
+
+.green9-bg {
+    background-color: rgb(221, 248, 231);
+}
 .orange1-bg{
     background-color: rgb(252, 216, 151);
 }
@@ -81,6 +104,10 @@
 
 .purple5-bg {
     background-color: rgb(77, 8, 122); 
+}
+
+.pink-bg {
+    background-color: rgb(245, 208, 237); margin-bottom: 20px;
 }
 
 
