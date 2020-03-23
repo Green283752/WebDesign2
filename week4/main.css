@@ -4,3 +4,46 @@
 body {
     margin: 0px;
 }
+
+@media(min-width: 500px) {
+
+  .hum5 padding-left:0px;
+
+}
+
+@media(min-width: 960px){
+
+    .flexbox {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-evenly;
+      }
+      
+      .flexbox2 {
+          display: flex;
+          flex-direction: row;
+          align-content: space-around;
+          justify-content: space-evenly;
+        }
+      
+      .flexbox3 {
+          display: flex;
+          flex-direction: row;
+          align-content: space-around;
+          justify-content: space-evenly;
+        }
+        .flexbox4 {
+          display: flex;
+          flex-direction: row;
+          align-content: space-around;
+          justify-content: space-evenly;
+        }
+
+
+    .hum5 padding-left:20px;
+    .hum3 padding-left:20px;
+
+
+}
+
