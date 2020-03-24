@@ -56,6 +56,14 @@ nav a {
     }
     nav .logo {
         max-width: 100%;
+        align-items: center;
+        align-content: center;
+    }
+
+    nav .logo-container {
+        display:flex;
+        align-items: center;
+        align-content: center;
     }
 
     nav ul.flex {
