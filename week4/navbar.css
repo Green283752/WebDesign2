@@ -1,6 +1,7 @@
 .flex {
     display: flex;
     flex-direction: column;
+    align-content:center;
 }
 
 nav .logo {
@@ -34,9 +35,20 @@ nav a {
 
 @media(min-width: 500px) {
 
+    .flex {
+        display: flex;
+        flex-direction: column;
+        
+    }
 }
 
 @media(min-width: 768px){
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        flex-flow: wrap; 
+    }
     nav.flex {
         flex-direction: row;
         justify-content: space-between;
@@ -49,9 +61,10 @@ nav a {
     nav ul.flex {
         flex-direction: row;
         justify-content: space-evenly;
-        flex-grow: 0;
+        flex-grow: 2;
         text-align: center;
         align-items: center;
+        align-content: center;
     }
 
     nav li:first-child {
