@@ -19,6 +19,8 @@ nav ul {
     padding: 0px;
     margin: 0px;
     list-style: none;
+    font-family: arial;
+    text-align: center;
 }
 
 nav  ul li {
@@ -77,6 +79,7 @@ nav a {
         text-align: center;
         align-items: center;
         align-content: center;
+        font-family: arial;
     }
 
     nav li:first-child {
