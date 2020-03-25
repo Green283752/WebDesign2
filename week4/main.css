@@ -58,9 +58,9 @@ body {
             flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
-            width: 288px;
+            width: 32.3%;
             text-align:center;
-            margin-left: 28px;
+            margin-left: 1%;
           }
 
           .flexbox2 {
@@ -68,9 +68,9 @@ body {
             flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
-            width: 288px;
+            width: 32.3%;;
             text-align:center;
-            margin-left: 28px;
+            margin-left: 1%;
 
 }
       .flexbox3 {
@@ -78,9 +78,9 @@ body {
          flex-direction: column;
            align-content: space-around;
           justify-content: space-evenly;
-           width: 288px;
+           width: 32.3%;;
            text-align:center;
-          margin-left: 28px;
+          margin-left: 1%;
 
 }
 
@@ -99,9 +99,9 @@ body {
  flex-direction: column;
    align-content: space-around;
   justify-content: space-evenly;
-   width: 576px;
+   width: 65.7%;
 text-align:center;
-margin-left: 28px;
+margin-left: 1%;
 
 }
 
@@ -110,8 +110,8 @@ margin-left: 28px;
  flex-direction: column;
    align-content: space-around;
   justify-content: space-evenly;
-   width: 288px;
+   width: 33.3%;
 text-align:center;
-margin-left: 28px;
+margin-left: 1%;
 
 }
