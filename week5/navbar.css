@@ -56,10 +56,10 @@ nav a {
 @media(min-width: 768px){
 
     .order-1 {order:1;}
-.order-2 {order:2;}
+.order-2 {order:2; border-right: 1px solid black;}
 .order-3 {order:3;}
 .order-4 {order:4;}
-.order-5 {order:5;}
+.order-5 {order:5; border-right: 1px solid black;}
 .image-grid img {
     width: 80%;
 }
@@ -107,10 +107,10 @@ nav a {
 
     nav ul li {
         border-bottom: none;
-        border-right: 1px solid black;
         border-left: 1px solid black;
         /* margin: 0px 10px; */
         flex-basis: 0;
         flex-grow: 1;
     }
+
 }

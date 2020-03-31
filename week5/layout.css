@@ -36,7 +36,12 @@ body {
           grid-column: col2-start ;
           grid-row: row2-start ;
       }
-
+         .tap7  {
+            width:100%;
+                 }
+         .tap8   {
+             margin-left: 8%;
+                 }
       ML CSSResult
       EDIT ON
       body {
@@ -77,3 +82,13 @@ body {
               grid-row: 2;
           }
 
+          @media(min-width: 560px){
+
+          }
+
+          @media(min-width: 768px){
+
+          }
+
+          @media(min-width: 1200px){
+          }
