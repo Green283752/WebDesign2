@@ -77,6 +77,15 @@
     div .text5 {
         width: 100%;
     }
+    .step1{
+        width:100%;
+    }
+    .step2{
+        width:100%;
+    }
+    .tap8{
+        width:100%;
+    }
 }
 
 @media(min-width: 768px){
