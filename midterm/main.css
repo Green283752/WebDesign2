@@ -1,0 +1,115 @@
+@import url("colors.css");
+
+body {
+    margin: 0px;
+}
+
+
+.flexbox6 {
+    display: flex;
+    flex-direction: column;
+            align-content: space-around;
+            justify-content: space-evenly;
+            text-align: center;
+  }
+
+
+  .flex1 {
+    display: none;
+  }
+
+  .flex2 {
+    display: none;
+  }
+
+
+
+@media(min-width: 500px) {
+
+.flexbox6 {
+    display: flex;
+            flex-direction: column;
+            align-content: space-around;
+            justify-content: space-evenly;
+            text-align: center;
+          }
+          
+   
+
+  .flex1 {
+    display: none;
+}
+
+.flex2 {
+  display: none;
+}
+
+
+@media(min-width: 768px){
+
+    
+          .flexbox6 {
+            display: none;
+          }
+
+          .flexbox1 {
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
+            justify-content: space-evenly;
+            width: 100%;
+            text-align:center;
+          }
+
+          .flexbox2 {
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
+            justify-content: space-evenly;
+            width: 32.3%;;
+            text-align:center;
+
+}
+      .flexbox3 {
+          display: flex;
+         flex-direction: column;
+           align-content: space-around;
+          justify-content: space-evenly;
+           width: 32.3%;;
+           text-align:center;
+          margin-left: 1%;
+
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: row;
+  width:100%;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexbox4 {
+  display: flex;
+ flex-direction: column;
+   align-content: space-around;
+  justify-content: space-evenly;
+   width: 65.7%;
+text-align:center;
+margin-left: 1%;
+
+}
+
+.flexbox5 {
+  display: flex;
+ flex-direction: column;
+   align-content: space-around;
+  justify-content: space-evenly;
+   width: 33.3%;
+text-align:center;
+margin-left: 1%;
+
+}
