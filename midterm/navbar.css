@@ -11,7 +11,7 @@ nav .logo {
     display:flex;
     box-sizing: border-box;
     justify-content: center;
-    width:370px;
+    width:70%;
     align-items: center;
     align-content: center;
 }
@@ -37,7 +37,6 @@ nav a {
     color: rgb(253, 251, 251);
 }
 
-
 @media(min-width: 500px) {
 
     .flex {
@@ -45,7 +44,7 @@ nav a {
         flex-direction: column;
         
     }
-    .order-3 {order:3;}
+.order-3 {order:3;}
 .order-1 {order:1;}
 .order-2 {order:2;}
 .order-4 {order:4;}
