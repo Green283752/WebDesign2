@@ -19,7 +19,6 @@ body {
             align-content: space-around;
             justify-content: space-evenly;
             text-align: center;
-            padding-left: 5%;
             padding-right: 5%;
   }
 
@@ -154,6 +153,7 @@ body {
     justify-content: space-evenly;
     width: 50%;
     text-align:center;
+    padding:30px;
            }
 
 .flexbox13 {
