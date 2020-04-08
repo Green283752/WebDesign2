@@ -19,8 +19,10 @@ body {
             align-content: space-around;
             justify-content: space-evenly;
             text-align: center;
-            padding-right: 5%;
   }
+   .flexbox13 {
+      padding-right: 5%;
+              }
 
   .flexbox18 {
     display: flex;
