@@ -25,11 +25,21 @@ body {
               }
 
   .flexbox18 {
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
+            justify-content: space-evenly;
+            text-align: center;
+            margin-right: 2%;
+            margin-left: 2%;
+  }
+
+  .flexbox19 {
     display: flex;
     flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
-            text-align: center;
+            text-align:;
   }
 
 
@@ -56,6 +66,25 @@ body {
     display: none;
   }
 
+  .flex8 {
+    display: none;
+  }
+
+  .flex9 {
+    display: none;
+  }
+
+  .flex10 {
+    display: none;
+  }
+
+  .flex11 {
+    display: none;
+  }
+
+  .flex12 {
+    display: none;
+  }
 
   /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -102,19 +131,33 @@ input[type=text], select, textarea {
             text-align: center;
           }
 .flexbox12 {
-    display: flex;
+            display: flex;
             flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
             text-align: center;
             }
  .flexbox18 {
-    display: flex;
+            display: flex;
             flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
             text-align: center;
             }
+ .flexbox19 {
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
+            justify-content: space-evenly;
+            text-align: center;
+            }
+  .flexbox24 {
+              display: flex;
+              flex-direction: column;
+              align-content: space-around;
+              justify-content: space-evenly;
+              text-align: center;
+              }
 
 .flex1 {
     display: none;
@@ -139,7 +182,26 @@ input[type=text], select, textarea {
 .flex7 {
     display: none;
   }
+  
+.flex8 {
+    display: none;
+  }
 
+.flex9 {
+    display: none;
+  }
+
+.flex10 {
+    display: none;
+  }
+
+.flex11 {
+    display: none;
+  }
+
+  .flex12 {
+    display: none;
+  }
 
 @media(min-width: 768px){
 
@@ -151,6 +213,12 @@ input[type=text], select, textarea {
             display: none;
           }
           .flexbox18 {
+            display: none;
+          }
+          .flexbox19 {
+            display: none;
+          }
+          .flexbox24 {
             display: none;
           }
 
@@ -168,10 +236,10 @@ input[type=text], select, textarea {
             flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
-            width: 32.3%;;
+            width: 50%;
             text-align:center;
-
-}
+            background-color: rgba(245, 245, 245, 0.493);
+                    }
       .flexbox3 {
           display: flex;
          flex-direction: column;
@@ -180,8 +248,8 @@ input[type=text], select, textarea {
            width: 32.3%;;
            text-align:center;
           margin-left: 1%;
+                }
 
-}
 .flexbox7 {
     display: flex;
     flex-direction: column;
@@ -189,7 +257,10 @@ input[type=text], select, textarea {
     justify-content: space-evenly;
     width: 50%;
     text-align:center;
-    padding:30px;
+    background-color: rgba(245, 245, 245, 0.493);
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
            }
 
 .flexbox13 {
@@ -199,7 +270,8 @@ input[type=text], select, textarea {
     justify-content: space-evenly;
     width: 100%;
     text-align:center;
-          }
+    padding:3%;
+            }
 
 .flexbox14 {
     display: flex;
@@ -219,6 +291,43 @@ input[type=text], select, textarea {
     text-align:center;
             }
 
+          
+ .flexbox16 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 50%;
+    text-align:center;
+    padding-bottom: 30%;
+            }
+
+  .flexbox20 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align:center;
+              }
+
+  .flexbox22 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 50%;
+    text-align:center;
+              }         
+  .flexbox23 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 50%;
+    padding-right: 5%;
+              }    
+
 .flex1 {
   display: flex;
   flex-direction: row;
@@ -228,12 +337,17 @@ input[type=text], select, textarea {
 .flex2 {
   display: flex;
   flex-direction: row;
+  width:100%;
+  background-image: url("images/dining.jpg");
+  background-size: cover;
 }
 
 .flex4 {
     display: flex;
     flex-direction: row;
     width:100%;
+    background-image: url("images/sweetpotatofries.jpg");
+    background-size: cover;
   }
 
 .flex5 {
@@ -252,28 +366,74 @@ input[type=text], select, textarea {
     flex-direction: row;
   }
 
+.flex8 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    text-align: center;
+  }
+
+.flex9 {
+    display: flex;
+    flex-direction: row;
+  }
+
+.flex10 {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex11 {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex12 {
+  display: flex;
+  flex-direction: row;
+        }
+
+.flex27 {
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+         }
 
 .flexbox4 {
   display: flex;
- flex-direction: column;
-   align-content: space-around;
+  flex-direction: column;
+  align-content: space-around;
   justify-content: space-evenly;
-   width: 50%;
-text-align:center;
-margin-left: 1%;
-
-}
+  width: 50%;
+  text-align:center;
+  margin-left: 1%;
+  background-color: rgba(245, 245, 245, 0.493);
+  margin-top: 1%;
+  margin-bottom: 1%;
+          }
 
 .flexbox5 {
   display: flex;
- flex-direction: column;
-   align-content: space-around;
+  flex-direction: column;
+  align-content: space-around;
   justify-content: space-evenly;
-   width: 33.3%;
-text-align:center;
-margin-left: 1%;
+  width: 50%;
+  text-align:center;
+  margin-left: 1%;
+  background-color: rgba(245, 245, 245, 0.493);
+  margin-top: 1%;
+  margin-bottom: 1%;
+           }
 
-}
+.flexbox12 {
+  display: flex;
+  flex-direction: row;
+  width:100%;
+          }
 
 .flexbox13 {
     display: flex;
@@ -294,6 +454,4 @@ margin-left: 1%;
      width: 50%;
   text-align:center;
   margin-left: 1%;
-  
-  }
-
+           }
