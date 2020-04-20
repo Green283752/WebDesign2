@@ -339,7 +339,7 @@ input[type=text], select, textarea {
   width:100%;
   background-image: url("images/dining.jpg");
   background-size: cover;
-  height: 600px;
+  height: 300%;
 }
 
 .flex2 {
