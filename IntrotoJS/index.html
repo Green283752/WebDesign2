@@ -18,40 +18,166 @@
             background-color: teal;
         }
 
+        .pane2 {
+            width: 100%;
+            height: 300px;
+        }
+
+        #violetPane {
+            background-color: lightblue;
+        }
+
     </style>
 </head>
 <body>
     <h1 id="header1">Intro to JS</h1>
 
    <section>
+       <button id="changeFont">Sans Serif</button>
+       <button id="changeFontFamily">Serif</button>
+       <button id="changeFontSize">Smaller</button>
+       <button id="changeFontSizeAgain">Larger</button>
+       <button id="changeBack">Reset</button>
        <div class="pane" id="tealPane"></div>
        <button id="changeToRed">Change to Red</button>
+       <button id="changeFontSize3">Larger</button>
+       <button id="changeFontSize4">Even Larger</button>
+       <button id="changeBackCopy">Reset</button>
+       <div class="pane2" id="violetPane"></div>
+       <button id="changeToBlue">Change to Violet</button>
+       <button id="changeFontSize5">Larger</button>
+       <button id="changeFontSize6">Even Larger</button>
+       <button id="changeBackText">Reset</button>
    </section>
 
 <script>
     //alert("Hello, World!")
-    var response = prompt("What's your name?" , " Mr. Pickles");
+    var response = prompt("What's your name?" , " Sans Serif");
     var myHeader = document.getElementById("header1");
+    var bodyCopy = document.getElementById("bodyCopy");
 
+    var fontButton = document.getElementById("changeFont");
+    var fontFamilyButton = document.getElementById("changeFontFamily");
+    var fontSizeButton = document.getElementById("changeFontSize");
+    var fontSizeButton2 = document.getElementById("changeFontSizeAgain");
+    var resetButton = document.getElementById("changeBack");
     var tealPane = document.getElementById("tealPane");
     var redButton = document.getElementById("changeToRed");
+    var fontSizeButton3 = document.getElementById("changeFontSize3");
+    var fontSizeButton4 = document.getElementById("changeFontSize4");
+    var resetButton2 = document.getElementById("changeBackCopy");
+    var violetPane = document.getElementById("violetPane");
+    var blueButton = document.getElementById("changeToBlue");
+    var fontSizeButton5 = document.getElementById("changeFontSize5");
+    var fontSizeButton6 = document.getElementById("changeFontSize6");
+    var resetButton3 = document.getElementById("changeBackText");
+    
 
-    myHeader.style.color = "red";
+
+    myHeader.style.color = "gold";
     myHeader.style.backgroundColor = "plum";
     myHeader.style.fontSize = "56px";
+    myHeader.style.fontFamily = "Helvetica";
 
-    myHeader.innerText = "Hello" + response;
+    myHeader.innerText = "Hello " + response;
     console.log("Hello " + 5 + " pickles");
+    
+
+    fontButton.addEventListener("click", function(){
+        console.log("Click happened!");
+        myHeader.style.fontFamily = "Futura";
+        myHeader.appendChild(notification);
+    });
+ 
+    fontFamilyButton.addEventListener("click", function(){
+        console.log("Click happened!");
+        myHeader.style.fontFamily = "Baskerville";
+        myHeader.appendChild(notification);
+    });
+
+    fontSizeButton.addEventListener("click", function(){
+        console.log("Click happened!");
+        myHeader.style.fontSize = "20px";
+        myHeader.appendChild(notification);
+    });
+
+    fontSizeButton2.addEventListener("click", function(){
+        console.log("Click happened!");
+        myHeader.style.fontSize = "90px";
+        myHeader.appendChild(notification);
+    });
+
+    resetButton.addEventListener("click", function(){
+        console.log("Click happened!");
+        myHeader.style.fontSize = "56px";
+        myHeader.style.fontFamily = "Helvetica";
+        myHeader.appendChild(notification);
+    });
+  
 
     redButton.addEventListener("click", function(){
         console.log("Click happened!");
-        tealPane.style.backgroundColor = "salmon";
+        tealPane.style.backgroundColor = "maroon";
         var notification = document.createElement("h5")
         notification.innerText = "This is red now!"
         tealPane.appendChild(notification);
     });
+    
+    fontSizeButton3.addEventListener("click", function(){
+        console.log("Click happened!");
+        var notification = document.createElement("h3")
+        notification.innerText = "This is red now!"
+        tealPane.appendChild(notification);
+    });
 
-  
+    fontSizeButton4.addEventListener("click", function(){
+        console.log("Click happened!");
+        var notification = document.createElement("h1")
+        notification.innerText = "This is red now!"
+        tealPane.appendChild(notification);
+    });
+
+    resetButton2.addEventListener("click", function(){
+        console.log("Click happened!");
+        tealPane.style.backgroundColor = "teal";
+        remove.notification.innerText("This is red now!")
+        remove.document.createElement("h1")
+        remove.document.createElement("h3")
+        tealPane.appendChild(notification);
+    });
+
+    blueButton.addEventListener("click", function(){
+        console.log("Click happened!");
+        violetPane.style.backgroundColor = "purple";
+        var notification = document.createElement("h5")
+        notification.innerText = "Violet you're turning violet, Violet!"
+        violetPane.appendChild(notification);
+    });
+
+    fontSizeButton5.addEventListener("click", function(){
+        console.log("Click happened!");
+        var notification = document.createElement("h3")
+        notification.innerText = "Violet you're turning violet, Violet!"
+        violetPane.appendChild(notification);
+    });
+
+    fontSizeButton6.addEventListener("click", function(){
+        console.log("Click happened!");
+        var notification = document.createElement("h1")
+        notification.innerText = "Violet you're turning violet, Violet!"
+        violetPane.appendChild(notification);
+    });
+
+
+    resetButton3.addEventListener("click", function(){
+        console.log("Click happened!");
+        violetPane.style.backgroundColor = "lightblue";
+        remove.notification.innerText("Violet you're turning violet, Violet!")
+        remove.document.createElement("h1")
+        remove.document.createElement("h3")
+        remove.notification.innerText("Violet you're turning violet, Violet!")
+        violetPane.appendChild(notification);
+    });
 
     
 </script>
