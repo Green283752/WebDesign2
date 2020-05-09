@@ -35,5 +35,4 @@ hexagon.addEventListener('click', function(){
 
     hexagon.src = "navopen.png"
     navbar.style.display = "block" 
-
 })
