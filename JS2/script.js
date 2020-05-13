@@ -32,7 +32,13 @@ honey4.addEventListener('click', function(){
 })
 
 hexagon.addEventListener('click', function(){
-
-    hexagon.src = "navopen.png"
-    navbar.style.display = "block" 
+    if{
+        navbar.style.display == "none'){"
+        hexagon.src = "navopen.png"
+        navbar.style.display = "block" 
+}
+else{
+    hexagon.src = "navclose.png"
+    navbar.style.display == "block" 
+}
 })
