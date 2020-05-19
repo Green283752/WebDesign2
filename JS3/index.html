@@ -21,19 +21,28 @@
     </header>
       <hr>
       <main id="gallery">
-          <img src= "../JS3/kohlanta.jpg" alt="kohlanta" id="galleryImg">
+        <div class="imgGallery">
+          <img src= "images/kohlanta.jpg" alt="kohlanta" id="galleryImg">
+          <img src= "images/kohtao.jpg" alt="kohtao" id="galleryImg2">
+        </div>
+          <div class="imgGallery">
+          <img src= "images/merylstreep.jpg" alt="merylstreep" id="galleryImg3">
+          <img src= "images/tomhanks.jpg" alt="tomhanks" id="galleryImg4">
+        </div>
+          <div class="imgGallery">
+          <img src= "images/roses.jpg" alt="roses1" id="galleryImg5">
+          <img src= "images/tulips.jpg" alt="tulips1" id="galleryImg6">
+        </div>
       </main>
     <script>
         var groupSelect = document.getElementById("groupSelect");
         var catSelect = document.getElementById("catSelect");
 
-        var catIslands = ["Koh Lanta", "Koh Samet", "Koh Tao"];
-        var catActors = ["Meryl Streep", "Tom Hanks", "Tina Fey", "Amy Poehler", "Steve Martin", "Rob Lowe"];
-        var catFlowers = ["Roses", "Tulips", "Honeysuckles"];
+        var catIslands = ["Koh Lanta", "Koh Tao"];
+        var catActors = ["Meryl Streep", "Tom Hanks"];
+        var catFlowers = ["Roses", "Tulips"];
         var galleryImg = document.getElementById("galleryImg");
         var imageCounter = 1;
-
-        var kohlanta = ["Koh Lanta"]
 
         groupSelect.addEventListener("change", function(){
             console.log(groupSelect.value);
@@ -61,25 +70,116 @@
                 catSelect.appendChild(opt);
            })
         }
-      
+
+  
         var timerFunction = function(){
             console.log(galleryImg.src);
             if(imageCounter == 1){
-                galleryImg.src = "../JS3/kohlanta3.jpg";
+                galleryImg.src = "images/kohlanta3.jpg";
                 imageCounter = 2;
             }
             else if(imageCounter == 2){
-                galleryImg.src = "../JS3/kohlanta2.jpg";
+                galleryImg.src = "images/kohlanta2.jpg";
                 imageCounter = 3;
             }
             else if(imageCounter == 3){
-                galleryImg.src = "../JS3/kohlanta.jpg";
+                galleryImg.src = "images/kohlanta.jpg";
                 imageCounter = 1;
             }
         }
 
         window.setInterval(timerFunction, 3000);
 
+        var timerFunction = function(){
+            console.log(galleryImg2.src);
+            if(imageCounter == 1){
+                galleryImg2.src = "images/kohtao.jpg";
+                imageCounter = 2;
+            }
+            else if(imageCounter == 2){
+                galleryImg2.src = "images/kohtao2.jpg";
+                imageCounter = 3;
+            }
+            else if(imageCounter == 3){
+                galleryImg2.src = "images/kohtao3.jpg";
+                imageCounter = 1;
+            }
+        }
+
+        window.setInterval(timerFunction, 3000);
+
+        var timerFunction = function(){
+            console.log(galleryImg3.src);
+            if(imageCounter == 1){
+                galleryImg3.src = "images/merylstreep.jpg";
+                imageCounter = 2;
+            }
+            else if(imageCounter == 2){
+                galleryImg3.src = "images/merylstreep2.jpg";
+                imageCounter = 3;
+            }
+            else if(imageCounter == 3){
+                galleryImg3.src = "images/merylstreep3.jpg";
+                imageCounter = 1;
+            }
+        }
+
+        window.setInterval(timerFunction, 3000);
+
+        var timerFunction = function(){
+            console.log(galleryImg4.src);
+            if(imageCounter == 1){
+                galleryImg4.src = "images/tomhanks.jpg";
+                imageCounter = 2;
+            }
+            else if(imageCounter == 2){
+                galleryImg4.src = "images/tomhanks2.jpg";
+                imageCounter = 3;
+            }
+            else if(imageCounter == 3){
+                galleryImg4.src = "images/tomhanks3.jpg";
+                imageCounter = 1;
+            }
+        }
+
+        window.setInterval(timerFunction, 3000);
+
+        var timerFunction = function(){
+            console.log(galleryImg5.src);
+            if(imageCounter == 1){
+                galleryImg5.src = "images/roses.jpg";
+                imageCounter = 2;
+            }
+            else if(imageCounter == 2){
+                galleryImg5.src = "images/roses2.jpg";
+                imageCounter = 3;
+            }
+            else if(imageCounter == 3){
+                galleryImg5.src = "images/roses3.jpg";
+                imageCounter = 1;
+            }
+        }
+        
+        window.setInterval(timerFunction, 3000);
+
+        var timerFunction = function(){
+            console.log(galleryImg6.src);
+            if(imageCounter == 1){
+                galleryImg6.src = "images/tulips.jpg";
+                imageCounter = 2;
+            }
+            else if(imageCounter == 2){
+                galleryImg6.src = "images/tulips2.jpg";
+                imageCounter = 3;
+            }
+            else if(imageCounter == 3){
+                galleryImg6.src = "images/tulips3.jpg";
+                imageCounter = 1;
+            }
+        }
+        
+        window.setInterval(timerFunction, 3000);
+      
     </script>
 </body>
 </html>
