@@ -21,7 +21,7 @@
     </header>
       <hr>
       <main id="gallery">
-          <img src= "../JS3/kohlanta.jpg" alt="koh lanta" id="galleryImg">
+          <img src= "../JS3/kohlanta.jpg" alt="kohlanta" id="galleryImg">
       </main>
     <script>
         var groupSelect = document.getElementById("groupSelect");
@@ -32,6 +32,8 @@
         var catFlowers = ["Roses", "Tulips", "Honeysuckles"];
         var galleryImg = document.getElementById("galleryImg");
         var imageCounter = 1;
+
+        var kohlanta = ["Koh Lanta"]
 
         groupSelect.addEventListener("change", function(){
             console.log(groupSelect.value);
@@ -59,15 +61,15 @@
                 catSelect.appendChild(opt);
            })
         }
-
+      
         var timerFunction = function(){
             console.log(galleryImg.src);
             if(imageCounter == 1){
-                galleryImg.src = "../JS3/kohsamet.jpg";
+                galleryImg.src = "../JS3/kohlanta3.jpg";
                 imageCounter = 2;
             }
             else if(imageCounter == 2){
-                galleryImg.src = "../JS3/kohtao.jpg";
+                galleryImg.src = "../JS3/kohlanta2.jpg";
                 imageCounter = 3;
             }
             else if(imageCounter == 3){
