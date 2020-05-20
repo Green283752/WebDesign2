@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="long-ps">
+          <p id="someP"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam cupiditate optio culpa sed saepe officiis quas suscipit debitis fuga, est aspernatur voluptatibus placeat, mollitia odit incidunt repellendus nisi reprehenderit nihil!</p>  
+          <p class="long-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem totam commodi fuga inventore maxime, illum ducimus non modi quidem facilis eligendi hic natus dicta voluptatem cumque, magnam consequatur nam?</p>
+        </div>
+        
+        <div class="images">
+            <img src="https://www.pexels.com/photo/grey-and-white-short-fur-cat-104827/" alt="side view of cat"
+            class="hideable-img">
+        </div>
+
+        </div>
+
+
+        <button id="clickB">Click Me to add another</button>
+        <button id="clickR">Click Me to remove some</button>
+        <button id="hideBtn">Click Me to hide images</button>
+        <button id="toggleBtn">Click Me to toggle images' visibility</button>
+        <button id="fadeOutbtn">Click Me to fade the images out</button>
+        <button id="fadeToggleBtn">Click Me to fade toggle the images out</button>
+        <button id="slideUpBtn">Click Me to slide the images up and away</button>
+
+        <button id="customAnim">Click Me to slide the images up and away</button>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script>
+       $(document).ready(function(){
+
+        $("#clickB").click(function(){
+          $(".long-ps").append('<p class="long-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae exercitationem totam commodi fuga inventore maxime, illum ducimus non modi quidem facilis eligendi hic natus dicta voluptatem cumque, magnam consequatur nam?</p>')
+       });
+
+       $("#clickR").click(function(){
+          $('.long-paragraph').remove();
+       });
+
+       $("#hideBtn").click(function(){
+          $('.hideable-img').hide();
+       });
+       
+       $("#toggleBtn").click(function(){
+          $('.hideable-img').toggle();
+       });
+
+       $("#fadeOutBtn").click(function(){
+          $('.hideable-img').fadeOut(4000), function(){
+          $('.images').append('<h1>Image Hidden Now!</h1>'){
+          });
+    
+       $("#fadeToggleBtn").click(function(){
+          $('.hideable-img').fadeToggle(2000);
+          });
+
+       $("#slideUpBtn").click(function(){
+          $('.hideable-img').slideUp(2000);
+          });
+
+       $("#customAnim").click(function(){
+          $('.hideable-img').aminate({height:"0px", width: "920px", marginBottom:"657px"}, 2000);
+          });  
+       }
+
+    </script>
+    
+</body>
+</html>
