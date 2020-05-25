@@ -1,0 +1,124 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="main.css">
+  <title>Flexbox-based navbar</title>
+</head>
+<body>
+  <header>
+    <nav class="flex">
+      <ul class="flex cream-bg">
+        <li class="order-3"><a href="#"><img class="logo" alt="awesome logo" src="images/icon.gif" style= "height: 120px;
+            width: 100px; margin-left: 21%;"></a></li>
+        <li class= "order-1"><a href= "index.html">Home</a></li>
+        <li class= "order-2"><a href="gallery.html">Crystals</a></li>
+        <li class= "order-4"><a href="contact.html">Contact</a></li>
+        <li class= "order-5"><a href="about.html">About Us</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <main>
+      <style>
+            h1 {font-family: Arial, Helvetica, sans-serif; font-size:25px;}
+            </style>
+            <button id="hideBtn" style="margin-left: 7%;">Hide</button>
+            <button id="showBtn">Show</button>
+            <button id="hideBtn2" style="margin-left: 67.7%;">Hide</button>
+            <button id="showBtn2">Show</button>
+            
+              </div>
+      <div class= "flex1"> 
+              <div class= "flexbox1"> 
+                <img src= "images/ball1.jpg" alt= "ball1" class= "hum5"
+                style="height:500px; width: 500px;">
+                
+              </div>
+  
+              <div class= "flexbox2"> 
+                <img src= "images/ball2.jpg" alt= "ball2" class= "hum1"
+                style="height:500px; width: 500px;">
+    
+              </div>
+      </div>
+
+              <button id="hideBtn3" style="margin-left: 7%;">Hide</button>
+              <button id="showBtn3">Show</button>
+              <button id="hideBtn4" style="margin-left: 67.7%;">Hide</button>
+              <button id="showBtn4">Show</button>
+
+            <div class= "flex2"> 
+              <div class= "flexbox4"> 
+                <img src= "images/ball3.jpg" alt= "ball3" class= "hum3"
+                style="height:500px; width: 500px;">
+            
+              </div>
+
+              <div class= "flexbox5"> 
+                <img src= "images/ball4.jpg" alt= "ball4" class= "hum4"
+                style="height:500px; width: 500px;">
+            
+              </div>
+
+            </div>
+
+    <div class= "flexbox6"> 
+        <img class= "hum5a" src= "images/ball1.jpg">
+        
+        <img class= "hum1a" src= "images/ball2.jpg">
+        
+        <img class= "hum2a" src= "images/ball3.jpg">
+       
+        <img class= "hum3a" src= "images/ball4.jpg">
+        
+    </div> 
+
+
+  </div>
+  </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script>
+ 
+    $("#hideBtn").click(function(){
+          $('.hum5').hide();
+       });
+    
+    $("#hideBtn2").click(function(){
+          $('.hum1').hide();
+       });
+
+    $("#hideBtn3").click(function(){
+          $('.hum3').hide();
+       });
+    
+    $("#hideBtn4").click(function(){
+          $('.hum4').hide();
+       });
+    
+    $("#showBtn").click(function(){
+          $('.hum5').show();
+       });
+
+    $("#showBtn2").click(function(){
+          $('.hum1').show();
+       });
+
+    $("#showBtn3").click(function(){
+          $('.hum3').show();
+       });
+
+    $("#showBtn4").click(function(){
+          $('.hum4').show();
+       });
+   
+    </script> 
+
+  <footer></footer>
+</body>
+</html>
