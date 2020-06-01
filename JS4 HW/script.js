@@ -1,20 +1,20 @@
-$( function() {
+$(function () {
 
-    $( "#tags" ).autocomplete({
-      source: availableTags
+    $("#tags").autocomplete({
+        source: availableTags
     });
 
-  var availableTags = [
+    var availableTags = [
 
-      "Scheme"
-      "Java",
-      "John",
-      "Peter",
-      "Cayla"
+        "Scheme"
+        "Java",
+        "John",
+        "Peter",
+        "Cayla"
     ];
-  } );
+});
 
 
-  $( function() {
-    $( "#accordion" ).accordion();
-  } );
+$(function () {
+    $("#accordion").accordion();
+});
