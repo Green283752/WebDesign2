@@ -1,13 +1,68 @@
 img {
     max-width: 150px;
+    margin-left: 45%;
 }
 
 
 .ui-widget {
-    color: blue:
+    color: rgb(118, 118, 211);
+    text-align: center;
+}
+
+.tags {
+    color: black;
 }
 
 .accordion {
     max-width: 100px;
+    margin: auto;
+}
+
+.accordion h3 {
+    text-align: center;
+}
+
+.accordion p {
+    text-align: center;
+}
+
+.peppers h3 {
+    color: red;
+    text-align: center;
+}
+
+.peppers p {
+    text-align: center;
+}
+
+
+.strawberries h3 {
+    color: rgb(233, 131, 148);
+    text-align: center;
+}
+
+.strawberries p {
+    text-align: center;
+}
+
+.pineapples h3 {
+    color: rgba(243, 229, 38, 0.911);
+    text-align: center;
+}
+
+.pineapples p {
+    text-align: center;
+}
+
+.pineapples ul {
+    text-align: center;
+}
+
+.mangoes h3 {
     color: orange;
+    text-align: center;
+}
+
+.mangoes p {
+    text-align: center;
 }
