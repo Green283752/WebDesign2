@@ -6,11 +6,11 @@ $(function () {
 
     var availableTags = [
 
-        "Scheme"
-        "Java",
-        "John",
-        "Peter",
-        "Cayla"
+        "Help"
+        "What",
+        "Done",
+        "Why",
+        "How"
     ];
 });
 
