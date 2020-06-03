@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancybox</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 1rem;
+        }
+
+        .grid img {
+            max-width: 200px
+        }
+
+        .grid>div {
+            background: #EDE7F6;
+            padding: 1.5rem;
+            border-radius: 1rem;
+        }
+
+        body {
+            margin: 2rem;
+            font: 12px system-ui;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <div class="grid">
+        <a href="images/mangoessmall.jpg" data-fancybox="gallery">
+            <img src="images/mangoesbig.jpg">
+        </a>
+        <a href="images/mangotowersmall.jpg" data-fancybox="gallery">
+            <img src="images/mangotower.jpg">
+        </a>
+</body>
+
+</html>

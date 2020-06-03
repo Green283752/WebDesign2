@@ -1,17 +1,19 @@
 $(function () {
 
-    $("#tags").autocomplete({
-        source: availableTags
-    });
-
     var availableTags = [
 
-        "Help"
+        "Help",
         "What",
         "Done",
         "Why",
         "How"
     ];
+
+    $("#tags").autocomplete({
+        source: availableTags
+    });
+
+
 });
 
 
