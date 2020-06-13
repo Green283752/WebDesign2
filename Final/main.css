@@ -40,7 +40,46 @@ body {
     flex-direction: column;
     align-content: space-around;
     justify-content: space-evenly;
-    text-align: ;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.flexbox18 h1{
+    color:rgb(3,97,151);
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 30px;
+}
+
+.flexbox18 p{
+    text-align:left;
+}
+
+.flexbox19 h1{
+    color:rgb(3,97,151);
+    text-align:center;
+    font-family: 'Raleway';
+    font-size: 30px;
+}
+
+.flexbox19 p{
+    text-align:left;
+}
+
+.blogm1 {
+    width:100%;
+}
+
+.blogm2 {
+    width:100%;
+}
+
+.blogm3 {
+    width:100%;
+}
+
+.blogm4 {
+    width:100%;
 }
 
 
@@ -156,8 +195,8 @@ input[type=submit]:hover {
         flex-direction: column;
         align-content: space-around;
         justify-content: space-evenly;
-        text-align: center;
     }
+
 
     .flexbox19 {
         display: flex;
@@ -166,6 +205,8 @@ input[type=submit]:hover {
         justify-content: space-evenly;
         text-align: center;
     }
+
+    
 
     .flexbox24 {
         display: flex;
@@ -242,17 +283,49 @@ input[type=submit]:hover {
             display: none;
         }
 
+
+        .flexbox1b {
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
+            text-align: center;
+        }
+
         .flexbox1 {
             display: flex;
             flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
-            width: 30%;
+            width: 35%;
             text-align: center;
             margin-left: 1%;
-            margin-top: 1%;
             margin-bottom: 1%;
             padding: 1%;
+        }
+
+        .flexbox1 h1{
+            color:rgb(3,97,151);
+        }
+
+        .flexbox1 a{
+            color:rgb(3,97,151);
+            font-family: 'Raleway';
+            font-size: 35px;
+        }
+        
+        .protest {
+            width:100%;
+            padding-top:2%;
+        }
+
+        .petitions {
+            width:100%;
+            padding-top:2%;
+        }
+
+        .campaigns {
+            width:100%;
+            padding-top:2%;
         }
 
         .flexbox2 {
@@ -271,7 +344,6 @@ input[type=submit]:hover {
             align-content: space-around;
             justify-content: space-evenly;
             width: 32.3%;
-            ;
             text-align: center;
             margin-left: 1%;
         }
@@ -316,7 +388,6 @@ input[type=submit]:hover {
             flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
-            width: ;
             text-align: center;
         }
 
@@ -326,10 +397,27 @@ input[type=submit]:hover {
             flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
-            width: ;
             text-align: center;
-            padding-bottom: ;
+            margin-left: 35%;
         }
+
+        .flexbox16 h1 {
+            padding-right: 49%;
+        }
+
+        .flexbox16 p {
+            text-align: left;
+            width: 50%;
+        }
+
+        .justice {
+            width:50%;
+        }
+
+        .blackout {
+            width:50%;
+        }
+
 
         .flexbox20 {
             display: flex;
@@ -369,7 +457,8 @@ input[type=submit]:hover {
             display: flex;
             flex-direction: row;
             width: 100%;
-            background-image: url("images/justice.jpg");
+            height:13%;
+            background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
             background-size: cover;
         }
 
@@ -377,7 +466,7 @@ input[type=submit]:hover {
             display: flex;
             flex-direction: row;
             width: 100%;
-            background-image: url("images/justice.jpg");
+            background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
             background-size: cover;
         }
 
@@ -407,6 +496,10 @@ input[type=submit]:hover {
         .flex9 {
             display: flex;
             flex-direction: row;
+        }
+
+        .supplies {
+            width:100%;
         }
 
         .flex10 {
@@ -468,7 +561,27 @@ input[type=submit]:hover {
         justify-content: space-evenly;
         text-align: center;
         margin-left: 10%;
-        margin-top: 5%;
+        margin-top: 6%;
+    }
+
+    .flexbox13 h1 {
+        text-align: center; 
+        padding-right: 20%;
+        margin-top: 6%;
+        font-family: 'Raleway';
+        font-size: 30px;
+        color:rgb(3,97,151);
+    }
+
+    .flexbox13 p {
+        width:84%;
+        text-align:left;
+        padding-bottom: 20%;
+    }
+
+    .blog1{
+        width:82%;
+        text-align:left;
     }
 
     .flexbox14 {
@@ -480,5 +593,22 @@ input[type=submit]:hover {
         text-align: center;
         margin-left: 1%;
         margin-right: 22%;
-        margin-top: 5%;
+        margin-top: 6%;
+    }
+
+
+    .flexbox14 h1 {
+        text-align: center; 
+        padding-left: 59%;
+        margin-top: 9%;
+        color:rgb(3,97,151);
+    }
+
+    .riot {
+        width:164%;
+       }
+
+    .flexbox14 p {
+        width:160%;
+        text-align:left;
     }
