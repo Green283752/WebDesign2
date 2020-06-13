@@ -298,8 +298,9 @@ input[type=submit]:hover {
             text-align: center;
         }
 
-        .brunch {width: 80%;
-                 }
+        .brunch {
+            width: 80%;
+        }
 
         .flexbox14 {
             display: flex;
@@ -315,7 +316,7 @@ input[type=submit]:hover {
             flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
-            width:;
+            width: ;
             text-align: center;
         }
 
@@ -325,9 +326,9 @@ input[type=submit]:hover {
             flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
-            width:;
+            width: ;
             text-align: center;
-            padding-bottom:;
+            padding-bottom: ;
         }
 
         .flexbox20 {
