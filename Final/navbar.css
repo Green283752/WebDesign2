@@ -73,7 +73,7 @@ nav a {
 
     .order-2 {
         order: 2;
-        border-right: 1px solid rgb(163, 178, 228);
+        border-right: ;
     }
 
     .order-3 {
@@ -86,7 +86,7 @@ nav a {
 
     .order-5 {
         order: 5;
-        border-right: 1px solid rgb(163, 178, 228);
+        border-right: ;
     }
 
     .image-grid img {
@@ -137,9 +137,9 @@ nav a {
 
     nav ul li {
         border-bottom: none;
-        border-left: 1px solid rgb(163, 178, 228);
+        border-left: ;
         /* margin: 0px 10px; */
         flex-basis: 0;
-        flex-grow: 1;
+        flex-grow: ;
     }
 }

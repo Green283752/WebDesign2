@@ -247,7 +247,7 @@ input[type=submit]:hover {
             flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
-            width: 20.7%;
+            width: 30%;
             text-align: center;
             margin-left: 1%;
             margin-top: 1%;
@@ -296,8 +296,10 @@ input[type=submit]:hover {
             justify-content: space-evenly;
             width: 100%;
             text-align: center;
-            padding: 3%;
         }
+
+        .brunch {width: 80%;
+                 }
 
         .flexbox14 {
             display: flex;
@@ -313,7 +315,7 @@ input[type=submit]:hover {
             flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
-            width: 50%;
+            width:;
             text-align: center;
         }
 
@@ -323,9 +325,9 @@ input[type=submit]:hover {
             flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
-            width: 50%;
+            width:;
             text-align: center;
-            padding-bottom: 30%;
+            padding-bottom:;
         }
 
         .flexbox20 {
@@ -463,10 +465,9 @@ input[type=submit]:hover {
         flex-direction: column;
         align-content: space-around;
         justify-content: space-evenly;
-        width: 50%;
         text-align: center;
-        margin-left: 1%;
-
+        margin-left: 10%;
+        margin-top: 5%;
     }
 
     .flexbox14 {
@@ -477,4 +478,6 @@ input[type=submit]:hover {
         width: 50%;
         text-align: center;
         margin-left: 1%;
+        margin-right: 22%;
+        margin-top: 5%;
     }
