@@ -12,26 +12,26 @@ body {
     justify-content: space-evenly;
 }
 
-.moveon{
-    color:white;
-    font-size:12pt;
+.moveon {
+    color: white;
+    font-size: 12pt;
 }
 
-.moveonm{
+.moveonm {
     color: rgb(81, 126, 185);
-    text-align:center;
-    font-size:30pt;
+    text-align: center;
+    font-size: 30pt;
     background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
     background-size: cover;
 }
 
-.marchm{
-    padding-top:22%;
+.marchm {
+    padding-top: 22%;
 }
 
-.marchm h2{
-    Padding-left:2%;
-    padding-right:2%;
+.marchm h2 {
+    Padding-left: 2%;
+    padding-right: 2%;
 }
 
 .flexbox12 {
@@ -197,7 +197,7 @@ textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color:#4CAF50;
+    background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -208,7 +208,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color:#4CAF50;
+    background-color: #4CAF50;
 }
 
 /* Add a background color and some padding around the form */
@@ -229,19 +229,19 @@ input[type=submit]:hover {
         text-align: center;
     }
 
-    .moveonm{
+    .moveonm {
         color: rgb(81, 126, 185);
-        text-align:center;
-        font-size:30pt;
+        text-align: center;
+        font-size: 30pt;
         background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
         background-size: cover;
     }
 
-    .marchm{
-        padding-top:2%;
+    .marchm {
+        padding-top: 2%;
     }
 
-    .flexbox6 h1{
+    .flexbox6 h1 {
         font-size: 35px;
     }
 
@@ -386,20 +386,49 @@ input[type=submit]:hover {
             width: 61%;
         }
 
-        .flexbox1b h2{
+        .flexbox1b p {
             padding-left: 7%;
             padding-right: 7%;
-        }
-        .flexbox1b button{
-            margin-left: 40%;
-            font-size: 200%;
-            color:rgb(3, 97, 151);
+            font-family: 'Raleway';
+            font-size: 30px;
+            background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+            background-size: cover;
+            color: rgb(233, 229, 229);
+            padding-top: 4%;
+            padding-bottom: 4%;
+            line-height: 35pt;
+            font-weight: bold;
         }
 
-        .moveon{
+        .flexbox1b h2 {
+            padding-left: 7%;
+            padding-right: 7%;
+            background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+            background-size: cover;
+            color: rgb(233, 229, 229);
+            padding-top: 4%;
+            line-height: 35pt;
+            font-family: 'Raleway';
+            font-size: 30px;
+        }
+
+        .flexbox1b button {
+            margin-left: 30%;
+            font-size: 200%;
+            color: rgb(3, 97, 151);
+            margin-top: 4%;
+        }
+
+
+
+        .march {
+            padding-bottom: 3%;
+        }
+
+        .moveon {
             color: rgb(81, 126, 185);
-            text-align:center;
-            font-size:50pt;
+            text-align: center;
+            font-size: 50pt;
             background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
             background-size: cover;
         }
@@ -511,6 +540,14 @@ input[type=submit]:hover {
             padding-right: 27%;
         }
 
+        .flexbox16 h2 {
+            text-align: center;
+            padding-right: 24%;
+            font-family: 'Raleway';
+            font-size: 25px;
+            color: rgb(3, 97, 151);
+        }
+
         .flexbox16 p {
             text-align: left;
             width: 75%;
@@ -537,6 +574,14 @@ input[type=submit]:hover {
             padding-right: 27%;
         }
 
+        .flexbox17 h2 {
+            text-align: center;
+            padding-right: 24%;
+            font-family: 'Raleway';
+            font-size: 25px;
+            color: rgb(3, 97, 151);
+        }
+
         .flexbox17 p {
             text-align: left;
             width: 75%;
@@ -544,6 +589,7 @@ input[type=submit]:hover {
 
         .riots {
             width: 75%;
+            margin-bottom: 9%;
         }
 
         .flexbox20 {
@@ -630,7 +676,7 @@ input[type=submit]:hover {
             border-radius: 5px;
             background-color: #f2f2f2;
             padding: 20px;
-            width:2000px;
+            width: 2000px;
         }
 
 
@@ -685,11 +731,21 @@ input[type=submit]:hover {
             display: flex;
             flex-direction: row;
             width: 100%;
+            background-color: rgba(81, 126, 185, 0.651);
+            margin-top: 7%%;
+        }
+
+        .flex6 h1{
+
         }
 
         .flex7 {
             display: flex;
             flex-direction: row;
+            width: 100%;
+            background-color: rgba(81, 126, 185, 0.651);
+            margin-top: 10%;
+            margin-bottom: 7%;
         }
 
         .flex8 {
@@ -766,7 +822,7 @@ input[type=submit]:hover {
         align-content: space-around;
         justify-content: space-evenly;
         text-align: center;
-        margin-left: 10%;
+        margin-left: 12%;
         margin-top: 6%;
     }
 
@@ -779,10 +835,17 @@ input[type=submit]:hover {
         color: rgb(3, 97, 151);
     }
 
+    .flexbox13 h2 {
+        text-align: center;
+        padding-right: 20%;
+        font-family: 'Raleway';
+        font-size: 25px;
+        color: rgb(3, 97, 151);
+    }
+
     .flexbox13 p {
         width: 84%;
         text-align: left;
-        padding-bottom: 20%;
     }
 
     .blog1 {
@@ -798,7 +861,7 @@ input[type=submit]:hover {
         width: 50%;
         text-align: center;
         margin-left: 1%;
-        margin-right: 22%;
+        margin-right: 25%;
         margin-top: 6%;
     }
 
@@ -810,11 +873,54 @@ input[type=submit]:hover {
         margin-left: 60%;
     }
 
+    .flexbox14 h2 {
+        text-align: center;
+        padding-left: 59%;
+        font-family: 'Raleway';
+        font-size: 25px;
+        color: rgb(3, 97, 151);
+    }
+
     .riot {
         width: 164%;
+        margin-bottom: 2%;
     }
 
     .flexbox14 p {
         width: 160%;
         text-align: left;
+    }
+
+    .flexbox25 {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        width: 100%;
+        color: white;
+        background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+        background-size: cover;
+        height: 2000px;
+        padding-top: 3%;
+        font-size: 20px;
+    }
+
+    .flexbox25 p{
+        padding-left:25%;
+        padding-right:25%;
+        font-size: 20pt;
+        line-height: 35pt;
+        font-family: 'Raleway';
+        background-color: rgba(81, 126, 185, 0.651);
+        padding: 2%;
+        width: 50%;
+        margin-left: 23%;
+    }
+
+    .flexbox25 h1{
+         font-family: 'Raleway';
+         background-color: rgba(81, 126, 185, 0.651);
+         padding: 2%;
+         padding-left: 23%;
+         width: 29%;
+         margin-left: 23%;
     }
