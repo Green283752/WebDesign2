@@ -379,15 +379,7 @@ input[type=submit]:hover {
             flex-direction: column;
             align-content: space-around;
             justify-content: space-evenly;
-            width: 50%;
-            text-align: center;
-        }
-
-        .flexbox15 {
-            display: flex;
-            flex-direction: column;
-            align-content: space-around;
-            justify-content: space-evenly;
+            width: 100%;
             text-align: center;
         }
 
@@ -398,11 +390,12 @@ input[type=submit]:hover {
             align-content: space-around;
             justify-content: space-evenly;
             text-align: center;
-            margin-left: 35%;
+            margin-left: 10%;
+            margin-top: 6%;
         }
 
         .flexbox16 h1 {
-            padding-right: 49%;
+            padding-right: 27%;
         }
 
         .flexbox16 p {
@@ -415,9 +408,30 @@ input[type=submit]:hover {
         }
 
         .blackout {
+            width: 75%;
+        }
+
+        .flexbox17 {
+            display: flex;
+            flex-direction: column;
+            align-content: space-around;
+            justify-content: space-evenly;
+            text-align: center;
+            margin-top: 6%;
+        }
+
+        .flexbox17 h1 {
+            padding-right: 27%;
+        }
+
+        .flexbox17 p {
+            text-align: left;
             width: 50%;
         }
 
+        .riots {
+            width: 75%;
+        }
 
         .flexbox20 {
             display: flex;
@@ -429,7 +443,6 @@ input[type=submit]:hover {
             background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
             background-size: cover;
             height: 2000px;
-
         }
 
 
@@ -441,7 +454,7 @@ input[type=submit]:hover {
         }
 
         .flexbox20 button {
-            height: 10%;
+            height: 5%;
             font-size: 40pt;
             color: rgb(3, 97, 151);
 
@@ -497,7 +510,7 @@ input[type=submit]:hover {
         }
 
         /* Add a background color and some padding around the form */
-        .myForm{
+        .myForm {
             border-radius: 5px;
             background-color: #f2f2f2;
             padding: 20px;
