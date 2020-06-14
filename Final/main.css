@@ -10,7 +10,28 @@ body {
     flex-direction: column;
     align-content: space-around;
     justify-content: space-evenly;
-    text-align: center;
+}
+
+.moveon{
+    color:white;
+    font-size:12pt;
+}
+
+.moveonm{
+    color: rgb(81, 126, 185);
+    text-align:center;
+    font-size:30pt;
+    background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+    background-size: cover;
+}
+
+.marchm{
+    padding-top:22%;
+}
+
+.marchm h2{
+    Padding-left:2%;
+    padding-right:2%;
 }
 
 .flexbox12 {
@@ -27,12 +48,47 @@ body {
 
 .flexbox18 {
     display: flex;
-    flex-direction: column;
     align-content: space-around;
     justify-content: space-evenly;
+    width: 100%;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+    background-size: cover;
+    padding-top: 3%;
+    font-size: 20px;
+}
+
+
+.flexbox18 h1 {
+    color: white;
+    font-size: 25pt;
+    font-family: 'Raleway';
     text-align: center;
-    margin-right: 2%;
-    margin-left: 2%;
+}
+
+
+.flexbox18 button {
+    font-size: 18pt;
+    color: rgb(3, 97, 151);
+}
+
+.flexbox18 form {
+    margin: 0 auto;
+    background-color: rgba(81, 126, 185, 0.651);
+    padding: 3%;
+    font-family: arial;
+}
+
+.flexbox18 text {
+    width: 50%;
+}
+
+.flexbox18 lname {
+    width: 50%;
+}
+
+.flexbox18 p {
+    text-align: left;
 }
 
 .flexbox19 {
@@ -42,17 +98,6 @@ body {
     justify-content: space-evenly;
     margin-right: 2%;
     margin-left: 2%;
-}
-
-.flexbox18 h1 {
-    color: rgb(3, 97, 151);
-    text-align: center;
-    font-family: 'Raleway';
-    font-size: 30px;
-}
-
-.flexbox18 p {
-    text-align: left;
 }
 
 .flexbox19 h1 {
@@ -127,6 +172,7 @@ body {
     display: none;
 }
 
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],
 select,
@@ -151,17 +197,18 @@ textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    background-color: rgb(76, 127, 175);
+    background-color:#4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 15pt;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: rgb(76, 127, 175);
+    background-color:#4CAF50;
 }
 
 /* Add a background color and some padding around the form */
@@ -182,6 +229,22 @@ input[type=submit]:hover {
         text-align: center;
     }
 
+    .moveonm{
+        color: rgb(81, 126, 185);
+        text-align:center;
+        font-size:30pt;
+        background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+        background-size: cover;
+    }
+
+    .marchm{
+        padding-top:2%;
+    }
+
+    .flexbox6 h1{
+        font-size: 35px;
+    }
+
     .flexbox12 {
         display: flex;
         flex-direction: column;
@@ -195,8 +258,41 @@ input[type=submit]:hover {
         flex-direction: column;
         align-content: space-around;
         justify-content: space-evenly;
+        width: 100%;
+        color: white;
+        background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+        background-size: cover;
+        height: 2000px;
+        padding-top: 3%;
+        font-size: 20px;
     }
 
+
+    .flexbox18 h1 {
+        color: white;
+        font-size: 25pt;
+        font-family: 'Raleway';
+    }
+
+    .flexbox18 button {
+        height: 5%;
+        font-size: 30pt;
+        color: rgb(3, 97, 151);
+    }
+
+    .flexbox18 form {
+        margin: 0 auto;
+        background-color: rgba(81, 126, 185, 0.651);
+        padding: 2%;
+    }
+
+    .flexbox18 text {
+        width: 50%;
+    }
+
+    .flexbox18 lname {
+        width: 50%;
+    }
 
     .flexbox19 {
         display: flex;
@@ -205,7 +301,6 @@ input[type=submit]:hover {
         justify-content: space-evenly;
         text-align: center;
     }
-
 
 
     .flexbox24 {
@@ -260,8 +355,8 @@ input[type=submit]:hover {
         display: none;
     }
 
-    @media(min-width: 768px) {
 
+    @media(min-width: 768px) {
 
         .flexbox6 {
             display: none;
@@ -288,7 +383,25 @@ input[type=submit]:hover {
             display: flex;
             flex-direction: column;
             align-content: space-around;
-            text-align: center;
+            width: 61%;
+        }
+
+        .flexbox1b h2{
+            padding-left: 7%;
+            padding-right: 7%;
+        }
+        .flexbox1b button{
+            margin-left: 40%;
+            font-size: 200%;
+            color:rgb(3, 97, 151);
+        }
+
+        .moveon{
+            color: rgb(81, 126, 185);
+            text-align:center;
+            font-size:50pt;
+            background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+            background-size: cover;
         }
 
         .flexbox1 {
@@ -400,7 +513,7 @@ input[type=submit]:hover {
 
         .flexbox16 p {
             text-align: left;
-            width: 50%;
+            width: 75%;
         }
 
         .justice {
@@ -426,7 +539,7 @@ input[type=submit]:hover {
 
         .flexbox17 p {
             text-align: left;
-            width: 50%;
+            width: 75%;
         }
 
         .riots {
@@ -438,30 +551,32 @@ input[type=submit]:hover {
             flex-direction: column;
             align-content: space-around;
             width: 100%;
-            text-align: center;
             color: white;
             background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
             background-size: cover;
             height: 2000px;
+            padding-top: 3%;
+            font-size: 20px;
         }
 
 
         .flexbox20 h1 {
             color: white;
-            font-size: 25pt;
-            padding-top: 5%;
+            font-size: 35pt;
             font-family: 'Raleway';
         }
 
         .flexbox20 button {
             height: 5%;
-            font-size: 40pt;
+            font-size: 30pt;
             color: rgb(3, 97, 151);
-
         }
 
         .flexbox20 form {
             margin: 0 auto;
+            background-color: rgba(81, 126, 185, 0.651);
+            padding: 2%;
+            font-family: arial;
         }
 
         .flexbox20 text {
@@ -502,6 +617,7 @@ input[type=submit]:hover {
             border: none;
             border-radius: 4px;
             cursor: pointer;
+            font-size: 15pt;
         }
 
         /* When moving the mouse over the submit button, add a darker green color */
@@ -514,6 +630,7 @@ input[type=submit]:hover {
             border-radius: 5px;
             background-color: #f2f2f2;
             padding: 20px;
+            width:2000px;
         }
 
 
@@ -688,9 +805,9 @@ input[type=submit]:hover {
 
     .flexbox14 h1 {
         text-align: center;
-        padding-left: 59%;
         margin-top: 9%;
         color: rgb(3, 97, 151);
+        margin-left: 60%;
     }
 
     .riot {

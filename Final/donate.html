@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="navbar.css">
-    <title>Moveon.org</title>
+    <title>MoveOn.org</title>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="script.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 </head>
 
@@ -16,10 +17,10 @@
         <nav class="flex">
             <ul class="flex cream-bg">
                 <li class="order-3"><a href="index.html"><img class="logo" alt="logo1" src="images/bluem.png"></a></li>
-                <li class="order-1"><a href="index.html" style=color:rgb(3,97,151)>HOME</a></li>
-                <li class="order-2"><a href="donate.html" style=color:rgb(3,97,151)>DONATE</a></li>
-                <li class="order-4"><a href="blog.html" style=color:rgb(3,97,151)>BLOG</a></li>
-                <li class="order-5"><a href="about.html" style=color:rgb(3,97,151)>ABOUT</a></li>
+                <li class="order-1"><a href="index.html">HOME</a></li>
+                <li class="order-2"><a href="donate.html">DONATE</a></li>
+                <li class="order-4"><a href="blog.html">BLOG</a></li>
+                <li class="order-5"><a href="about.html">ABOUT</a></li>
 
             </ul>
         </nav>
@@ -40,55 +41,46 @@
             <div class="flexbox20">
                 <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
                     <h1>Donations</h1>
-                    Name: <input type="text" name="fname" value="John"><br>
-                    Last Name:<input type="text" lname="lname" value="Doe"><br><br>
-                    Email:<input type="text" email="email" value="John@moveon.com"><br><br>
-                    Billing Address:<input type="text" address="address" value="1600 
-               Pennsylvania Ave. NW"><br><br>
-                    City:<input type="text" city="city" value="Washington DC"><br>
-                    State:<input type="text" state="state" value="Washington DC"><br>
-                    Zip:<input type="text" zip="zip" value="20500"><br><br>
-                    Credit Card Number:<input type="text" credit="credit" value="1234567890"><br><br>
-                    Expiration Date:<input type="text" exp="exp" value="MM/YYYY"><br><br>
                     <button>$23</button><button>$49</button><button>$65</button><br>
                     <button>$98</button><button>$137</button><button>$200</button><br>
                     <button>$500</button><button>$700</button><button>$1000+</button><br>
-                    <button>Write in amount</button><button>Monthly</button><br>
-                    <input type="submit" value="Submit">
+                    <button>Write in amount</button><button>Monthly</button><br><br>
+                    Name: <input type="text" name="fname" value="John"><br>
+                    Last Name:<input type="text" lname="lname" value="Doe"><br>
+                    Email:<input type="text" email="email" value="John@moveon.com"><br>
+                    Billing Address:<input type="text" address="address" value="1600 Pennsylvania Ave. NW"><br>
+                    City:<input type="text" city="city" value="Washington DC"><br>
+                    State:<input type="text" state="state" value="Washington DC"><br>
+                    Zip:<input type="text" zip="zip" value="20500"><br>
+                    Credit Card Number:<input type="text" credit="credit" value="1234567890"><br>
+                    Expiration Date:<input type="text" exp="exp" value="MM/YYYY"><br>
+                    <input type="submit" value="Submit"><br><br>
                 </form>
             </div>
         </div>
-        <div class="flexbox6" style="width: 100%;">
-            <img class="march"
-                src="https://images.unsplash.com/photo-1569225022281-f652746229fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
-                style="width: 100%;">
-            <h1 style="text-align: center;"></h1>
-            <img class="protests"
-                src="https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80"
-                style="width: 100%;">
-            <img class="glass"
-                src="https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80"
-                style="padding-left: 31%;
-        width: 130px;">
-            <img class="whitewine"
-                src="https://images.unsplash.com/photo-1569225022281-f652746229fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
-                style="width: 100%;">
-            <p style="font-size: 15pt;padding-left:5%; padding-right:5%;">
-                <br>
-            </p>
-            <h2 style="text-align: center;">Current</h2>
-            <h1 style="text-align: center;">Archive</h1>
-            <p style="font-size: 15pt;padding-left:5%; padding-right:5%;">
-                <br>
-            </p>
-            <img class="wine"
-                src="https://images.unsplash.com/photo-1569225022281-f652746229fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
-                style="width: 100%;">
+        <div class="flexbox18" style="width: 100%;">
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                <h1>Donations</h1>
+                <button>$23</button><button>$49</button><button>$65</button><br>
+                <button>$98</button><button>$137</button><button>$200</button><br>
+                <button>$500</button><button>$700</button><button>$1000+</button><br>
+                <button>Write in amount</button><button>Monthly</button><br><br>
+                Name: <input type="text" name="fname" value="John"><br>
+                Last Name:<input type="text" lname="lname" value="Doe"><br>
+                Email:<input type="text" email="email" value="John@moveon.com"><br>
+                Billing Address:<input type="text" address="address" value="1600 Pennsylvania Ave. NW"><br>
+                City:<input type="text" city="city" value="Washington DC"><br>
+                State:<input type="text" state="state" value="Washington DC"><br>
+                Zip:<input type="text" zip="zip" value="20500"><br>
+                Credit Card Number:<input type="text" credit="credit" value="1234567890"><br>
+                Expiration Date:<input type="text" exp="exp" value="MM/YYYY"><br>
+                <input type="submit" value="Submit"><br><br>
+            </form>
         </div>
 
     </main>
     <footer>
-        <div class="flex3" style="background-color:rgb(163, 178, 228);padding:3%">
+        <div class="flex3" style="background-color:rgb(81,126,185);padding:3%">
 
             <p>Contact information: <a href="mailto:someone@example.com"></a>
 
