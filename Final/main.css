@@ -44,42 +44,42 @@ body {
     margin-left: 2%;
 }
 
-.flexbox18 h1{
-    color:rgb(3,97,151);
+.flexbox18 h1 {
+    color: rgb(3, 97, 151);
     text-align: center;
     font-family: 'Raleway';
     font-size: 30px;
 }
 
-.flexbox18 p{
-    text-align:left;
+.flexbox18 p {
+    text-align: left;
 }
 
-.flexbox19 h1{
-    color:rgb(3,97,151);
-    text-align:center;
+.flexbox19 h1 {
+    color: rgb(3, 97, 151);
+    text-align: center;
     font-family: 'Raleway';
     font-size: 30px;
 }
 
-.flexbox19 p{
-    text-align:left;
+.flexbox19 p {
+    text-align: left;
 }
 
 .blogm1 {
-    width:100%;
+    width: 100%;
 }
 
 .blogm2 {
-    width:100%;
+    width: 100%;
 }
 
 .blogm3 {
-    width:100%;
+    width: 100%;
 }
 
 .blogm4 {
-    width:100%;
+    width: 100%;
 }
 
 
@@ -206,7 +206,7 @@ input[type=submit]:hover {
         text-align: center;
     }
 
-    
+
 
     .flexbox24 {
         display: flex;
@@ -303,29 +303,29 @@ input[type=submit]:hover {
             padding: 1%;
         }
 
-        .flexbox1 h1{
-            color:rgb(3,97,151);
+        .flexbox1 h1 {
+            color: rgb(3, 97, 151);
         }
 
-        .flexbox1 a{
-            color:rgb(3,97,151);
+        .flexbox1 a {
+            color: rgb(3, 97, 151);
             font-family: 'Raleway';
             font-size: 35px;
         }
-        
+
         .protest {
-            width:100%;
-            padding-top:2%;
+            width: 100%;
+            padding-top: 2%;
         }
 
         .petitions {
-            width:100%;
-            padding-top:2%;
+            width: 100%;
+            padding-top: 2%;
         }
 
         .campaigns {
-            width:100%;
-            padding-top:2%;
+            width: 100%;
+            padding-top: 2%;
         }
 
         .flexbox2 {
@@ -411,11 +411,11 @@ input[type=submit]:hover {
         }
 
         .justice {
-            width:50%;
+            width: 50%;
         }
 
         .blackout {
-            width:50%;
+            width: 50%;
         }
 
 
@@ -423,10 +423,86 @@ input[type=submit]:hover {
             display: flex;
             flex-direction: column;
             align-content: space-around;
-            justify-content: space-evenly;
             width: 100%;
             text-align: center;
+            color: white;
+            background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+            background-size: cover;
+            height: 2000px;
+
         }
+
+
+        .flexbox20 h1 {
+            color: white;
+            font-size: 25pt;
+            padding-top: 5%;
+            font-family: 'Raleway';
+        }
+
+        .flexbox20 button {
+            height: 10%;
+            font-size: 40pt;
+            color: rgb(3, 97, 151);
+
+        }
+
+        .flexbox20 form {
+            margin: 0 auto;
+        }
+
+        .flexbox20 text {
+            width: 50%;
+        }
+
+        .flexbox20 lname {
+            width: 50%;
+        }
+
+        /* Style inputs with type="text", select elements and textareas */
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            /* Full width */
+            padding: 12px;
+            /* Some padding */
+            border: 1px solid #ccc;
+            /* Gray border */
+            border-radius: 4px;
+            /* Rounded borders */
+            box-sizing: border-box;
+            /* Make sure that padding and width stays in place */
+            margin-top: 6px;
+            /* Add a top margin */
+            margin-bottom: 16px;
+            /* Bottom margin */
+            resize: vertical
+                /* Allow the user to vertically resize the textarea (not horizontally) */
+        }
+
+        /* Style the submit button with a specific background color etc */
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* When moving the mouse over the submit button, add a darker green color */
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        /* Add a background color and some padding around the form */
+        .myForm{
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
 
         .flexbox22 {
             display: flex;
@@ -457,7 +533,7 @@ input[type=submit]:hover {
             display: flex;
             flex-direction: row;
             width: 100%;
-            height:13%;
+            height: 13%;
             background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
             background-size: cover;
         }
@@ -499,7 +575,7 @@ input[type=submit]:hover {
         }
 
         .supplies {
-            width:100%;
+            width: 100%;
         }
 
         .flex10 {
@@ -565,23 +641,23 @@ input[type=submit]:hover {
     }
 
     .flexbox13 h1 {
-        text-align: center; 
+        text-align: center;
         padding-right: 20%;
         margin-top: 6%;
         font-family: 'Raleway';
         font-size: 30px;
-        color:rgb(3,97,151);
+        color: rgb(3, 97, 151);
     }
 
     .flexbox13 p {
-        width:84%;
-        text-align:left;
+        width: 84%;
+        text-align: left;
         padding-bottom: 20%;
     }
 
-    .blog1{
-        width:82%;
-        text-align:left;
+    .blog1 {
+        width: 82%;
+        text-align: left;
     }
 
     .flexbox14 {
@@ -598,17 +674,17 @@ input[type=submit]:hover {
 
 
     .flexbox14 h1 {
-        text-align: center; 
+        text-align: center;
         padding-left: 59%;
         margin-top: 9%;
-        color:rgb(3,97,151);
+        color: rgb(3, 97, 151);
     }
 
     .riot {
-        width:164%;
-       }
+        width: 164%;
+    }
 
     .flexbox14 p {
-        width:160%;
-        text-align:left;
+        width: 160%;
+        text-align: left;
     }
