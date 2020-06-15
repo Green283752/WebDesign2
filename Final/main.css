@@ -25,8 +25,7 @@ body {
     background-size: cover;
 }
 
-.marchm {
-}
+.marchm {}
 
 .marchm h2 {
     Padding-left: 2%;
@@ -37,9 +36,33 @@ body {
     display: flex;
     flex-direction: column;
     align-content: space-around;
-    justify-content: space-evenly;
-    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+    background-size: cover;
+    width: 120%;
+    color: white;
+    height: 2000px;
+    padding-top: 3%;
 }
+
+
+.flexbox12 p {
+    font-size: 20pt;
+    font-family: 'Raleway';
+    background-color: #0773bbd7;
+    padding: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.flexbox12 h1 {
+    font-family: 'Raleway';
+    background-color: #0773bbd7;
+    padding: 2%;
+    padding-left: 29%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
 
 .flexbox13 {
     padding-right: 5%;
@@ -82,7 +105,7 @@ body {
     padding: 3%;
     font-family: arial;
     background-color: #0773bbd7;
-    
+
 }
 
 .flexbox18 text {
@@ -95,6 +118,22 @@ body {
 
 .flexbox18 p {
     text-align: left;
+}
+
+
+.begin1m {
+    color: white;
+    background-color: #0773bb;
+}
+
+.begin2m {
+    color: white;
+    background-color: #0773bb;
+}
+
+.begin3m {
+    color: white;
+    background-color: #0773bb;
 }
 
 .flexbox2 {
@@ -179,7 +218,7 @@ body {
     width: 97%;
     font-size: 18pt;
     font-family: 'raleway';
-    color:rgb(233, 229, 229);
+    color: rgb(233, 229, 229);
 }
 
 .justice {
@@ -214,7 +253,7 @@ body {
     width: 97%;
     font-size: 18pt;
     font-family: 'raleway';
-    color:rgb(233, 229, 229);
+    color: rgb(233, 229, 229);
     padding-top: 12%;
 }
 
@@ -235,10 +274,10 @@ body {
 }
 
 .flexbox19 h1 {
-    color:#0773bb;
+    color: #0773bb;
     text-align: center;
     font-family: 'Raleway';
-    font-size: 30px;
+    font-size: 42px;
 }
 
 .flexbox19 p {
@@ -247,15 +286,19 @@ body {
     font-family: 'Raleway';
     font-size: 18pt;
     color: rgb(233, 229, 229);
-    padding:4%;
+    padding: 6%;
+    line-height: 25pt;
 }
 
 
-.flexbox19 h2{ 
+.flexbox19 h2 {
     font-family: 'Raleway';
     font-size: 30px;
-    color:#0773bb;
+    color: #0773bb;
+    background-color: black;
+    padding: 5%;
 }
+
 
 .blogm1 {
     width: 100%;
@@ -381,7 +424,7 @@ input[type=submit]:hover {
 
 
     .moveonm {
-        color:#0773bb;
+        color: #0773bb;
         text-align: center;
         font-size: 50pt;
         background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
@@ -393,14 +436,14 @@ input[type=submit]:hover {
         padding-bottom: 3%;
     }
 
-    .marchm2{
+    .marchm2 {
         background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
         background-size: cover;
     }
 
     .flexbox6 h1 {
         font-size: 35px;
-        color:#0773bb;
+        color: #0773bb;
     }
 
 }
@@ -428,8 +471,9 @@ input[type=submit]:hover {
 .flexbox6 button {
     margin-left: 30%;
     font-size: 175%;
-    color:#0773bb;
+    color: rgb(233, 229, 229);
     margin-bottom: 4%;
+    background-color: black;
 }
 
 
@@ -441,11 +485,12 @@ input[type=submit]:hover {
 .campaignsm {
     width: 100%;
     padding-top: 2%;
+    margin-bottom: 5%;
 }
 
 
 .flexbox6 a {
-    color:#0773bb;
+    color: #0773bb;
     font-family: 'Raleway';
     font-size: 30px;
     text-align: center;
@@ -457,652 +502,308 @@ input[type=submit]:hover {
     padding-top: 2%;
 }
 
+.flexbox12 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    padding-bottom: 7%;
+}
+
+.flexbox18 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+    background-size: cover;
+    height: 1500px;
+    padding-top: 3%;
+    font-size: 20px;
+}
+
+
+.flexbox18 h1 {
+    color: white;
+    font-size: 25pt;
+    font-family: 'Raleway';
+}
+
+.flexbox18 button {
+    height: 4%;
+    font-size: 22pt;
+    color: #0773bb;
+}
+
+.flexbox18 form {
+    margin: 0 auto;
+    background-color: #0773bbd7;
+    padding: 5%;
+    padding-bottom: 17%;
+}
+
+.flexbox18 text {
+    width: 50%;
+}
+
+.flexbox18 lname {
+    width: 50%;
+}
+
+.flexbox19 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+
+.flexbox24 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.flexbox24 p {
+    background-color: black;
+    font-family: 'Raleway';
+    font-size: 18pt;
+    color: rgb(233, 229, 229);
+    padding: 6%;
+    line-height: 25pt;
+}
+
+.flexbox24 h1 {
+    font-family: 'Raleway';
+    font-size: 42px;
+}
+
+.flexbox24 h2 {
+    font-family: 'Raleway';
+    font-size: 30px;
+    color: #0773bb;
+    background-color: black;
+    padding: 5%;
+}
+
+.flex1 {
+    display: none;
+}
+
+.flex2 {
+    display: none;
+}
+
+.flex4 {
+    display: none;
+}
+
+.flex5 {
+    display: none;
+}
+
+.flex6 {
+    display: none;
+}
+
+.flex7 {
+    display: none;
+}
+
+.flex8 {
+    display: none;
+}
+
+.flex9 {
+    display: none;
+}
+
+.flex10 {
+    display: none;
+}
+
+.flex11 {
+    display: none;
+}
+
+.flex12 {
+    display: none;
+}
+
+
+@media(min-width: 768px) {
+
+    .flexbox6 {
+        display: none;
+    }
+
     .flexbox12 {
-        display: flex;
-        flex-direction: column;
-        align-content: space-around;
-        justify-content: space-evenly;
-        text-align: center;
+        display: none;
     }
 
     .flexbox18 {
-        display: flex;
-        flex-direction: column;
-        align-content: space-around;
-        justify-content: space-evenly;
-        width: 100%;
-        color: white;
-        background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
-        background-size: cover;
-        height: 1500px;
-        padding-top: 3%;
-        font-size: 20px;
-    }
-
-
-    .flexbox18 h1 {
-        color: white;
-        font-size: 25pt;
-        font-family: 'Raleway';
-    }
-
-    .flexbox18 button {
-        height: 4%;
-        font-size: 22pt;
-        color: #0773bb;
-    }
-
-    .flexbox18 form {
-        margin: 0 auto;
-        background-color: #0773bbd7;
-        padding: 5%;
-        padding-bottom: 17%;
-    }
-
-    .flexbox18 text {
-        width: 50%;
-    }
-
-    .flexbox18 lname {
-        width: 50%;
+        display: none;
     }
 
     .flexbox19 {
-        display: flex;
-        flex-direction: column;
-        align-content: space-around;
-        justify-content: space-evenly;
+        display: none;
     }
-
 
     .flexbox24 {
+        display: none;
+    }
+
+
+    .begin1m {
+        display: none;
+    }
+
+    .begin2m {
+        display: none;
+    }
+
+    .begin3m {
+        display: none;
+    }
+
+    .flexbox1b {
         display: flex;
         flex-direction: column;
         align-content: space-around;
-        justify-content: space-evenly;
+        width: 61%;
     }
 
-    .flexbox24 p{ 
-         background-color: black;
-         font-family: 'Raleway';
-         font-size: 18pt;
-         color: rgb(233, 229, 229);
-         padding:4%;
-    }
-
-    .flexbox24 h1{ 
-         font-family: 'Raleway';
-         font-size: 30px;
-         color:#0773bb;
-    }
- 
-    .flexbox24 h2{ 
+    .flexbox1b p {
+        padding-left: 7%;
+        padding-right: 7%;
         font-family: 'Raleway';
         font-size: 30px;
-        color:#0773bb;
-   }
-
-    .flex1 {
-        display: none;
+        background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+        background-size: cover;
+        color: rgb(233, 229, 229);
+        padding-top: 4%;
+        padding-bottom: 4%;
+        line-height: 35pt;
+        font-weight: bold;
     }
 
-    .flex2 {
-        display: none;
+    .flexbox1b h2 {
+        padding-left: 7%;
+        padding-right: 7%;
+        background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+        background-size: cover;
+        color: rgb(233, 229, 229);
+        padding-top: 4%;
+        line-height: 35pt;
+        font-family: 'Raleway';
+        font-size: 30px;
     }
 
-    .flex4 {
-        display: none;
-    }
-
-    .flex5 {
-        display: none;
-    }
-
-    .flex6 {
-        display: none;
-    }
-
-    .flex7 {
-        display: none;
-    }
-
-    .flex8 {
-        display: none;
-    }
-
-    .flex9 {
-        display: none;
-    }
-
-    .flex10 {
-        display: none;
-    }
-
-    .flex11 {
-        display: none;
-    }
-
-    .flex12 {
-        display: none;
+    .flexbox1b button {
+        margin-left: 30%;
+        font-size: 200%;
+        color: #0773bb;
+        margin-top: 4%;
     }
 
 
-    @media(min-width: 768px) {
 
-        .flexbox6 {
-            display: none;
-        }
-
-        .flexbox12 {
-            display: none;
-        }
-
-        .flexbox18 {
-            display: none;
-        }
-
-        .flexbox19 {
-            display: none;
-        }
-
-        .flexbox24 {
-            display: none;
-        }
-
-
-        .flexbox1b {
-            display: flex;
-            flex-direction: column;
-            align-content: space-around;
-            width: 61%;
-        }
-
-        .flexbox1b p {
-            padding-left: 7%;
-            padding-right: 7%;
-            font-family: 'Raleway';
-            font-size: 30px;
-            background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
-            background-size: cover;
-            color: rgb(233, 229, 229);
-            padding-top: 4%;
-            padding-bottom: 4%;
-            line-height: 35pt;
-            font-weight: bold;
-        }
-
-        .flexbox1b h2 {
-            padding-left: 7%;
-            padding-right: 7%;
-            background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
-            background-size: cover;
-            color: rgb(233, 229, 229);
-            padding-top: 4%;
-            line-height: 35pt;
-            font-family: 'Raleway';
-            font-size: 30px;
-        }
-
-        .flexbox1b button {
-            margin-left: 30%;
-            font-size: 200%;
-            color:#0773bb;
-            margin-top: 4%;
-        }
-
-
-
-        .march {
-            padding-bottom: 3%;
-        }
-
-        .moveon {
-            color:#0773bb;
-            text-align: center;
-            font-size: 50pt;
-            background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
-            background-size: cover;
-        }
-
-        .flexbox1 {
-            display: flex;
-            flex-direction: column;
-            align-content: space-around;
-            justify-content: space-evenly;
-            width: 35%;
-            text-align: center;
-            margin-left: 1%;
-            margin-bottom: 1%;
-            padding: 1%;
-        }
-
-        .flexbox1 h1 {
-            color:#0773bb;
-        }
-
-        .flexbox1 a {
-            color:#0773bb;
-            font-family: 'Raleway';
-            font-size: 35px;
-        }
-
-        .protest {
-            width: 100%;
-            padding-top: 2%;
-        }
-
-        .petitions {
-            width: 100%;
-            padding-top: 2%;
-        }
-
-        .campaigns {
-            width: 100%;
-            padding-top: 2%;
-        }
-
-        .flexbox2 {
-            display: flex;
-            flex-direction: column;
-            align-content: space-around;
-            justify-content: space-evenly;
-            width: 50%;
-            text-align: center;
-            padding: 3%;
-        }
-
-        .flexbox3 {
-            display: flex;
-            flex-direction: column;
-            align-content: space-around;
-            justify-content: space-evenly;
-            width: 32.3%;
-            text-align: center;
-            margin-left: 1%;
-        }
-
-        .flexbox7 {
-            display: flex;
-            flex-direction: column;
-            align-content: space-around;
-            justify-content: space-evenly;
-            width: 50%;
-            text-align: center;
-            background-color: rgba(245, 245, 245, 0.493);
-            margin-left: 1%;
-            margin-top: 1%;
-            margin-bottom: 1%;
-        }
-
-        .flexbox13 {
-            display: flex;
-            flex-direction: column;
-            align-content: space-around;
-            justify-content: space-evenly;
-            width: 100%;
-            text-align: center;
-        }
-
-        .brunch {
-            width: 80%;
-        }
-
-        .flexbox14 {
-            display: flex;
-            flex-direction: column;
-            align-content: space-around;
-            justify-content: space-evenly;
-            width: 100%;
-            text-align: center;
-        }
-
-
-        .flexbox16 {
-            display: flex;
-            flex-direction: column;
-            align-content: space-around;
-            justify-content: space-evenly;
-            margin-top: 2%;
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-
-        .flexbox16 h1 {
-            padding-right: 3%;
-        }
-
-        .flexbox16 h2 {
-            text-align: center;
-            padding-right: 2%;
-            font-family: 'Raleway';
-            font-size: 25px;
-        }
-
-        .flexbox16 p {
-            text-align: left;
-            width: 97%;
-            font-size: 18pt;
-            font-family: 'raleway';
-            color:rgb(233, 229, 229);
-        }
-
-        .justice {
-            width: 50%;
-        }
-
-        .blackout {
-            width: 100%;
-        }
-
-        .flexbox17 {
-            display: flex;
-            flex-direction: column;
-            align-content: space-around;
-            margin-top: 2%;
-            padding-right: 3%;
-        }
-
-        .flexbox17 h1 {
-            padding-right: 6%;
-        }
-
-        .flexbox17 h2 {
-            text-align: center;
-            font-family: 'Raleway';
-            font-size: 25px;
-            padding-right: 4%;
-        }
-
-        .flexbox17 p {
-            text-align: left;
-            width: 97%;
-            font-size: 18pt;
-            font-family: 'raleway';
-            color:rgb(233, 229, 229);
-            padding-top: 12%;
-        }
-
-        .riots {
-            width: 95%;
-            margin-bottom: 9%;
-        }
-
-        .flexbox20 {
-            display: flex;
-            flex-direction: column;
-            align-content: space-around;
-            width: 100%;
-            color:white;
-            background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
-            background-size: cover;
-            height: 2000px;
-            padding-top: 3%;
-            font-size: 20px;
-        }
-
-
-        .flexbox20 h1 {
-            color: white;
-            font-size: 35pt;
-            font-family: 'Raleway';
-            text-align:center;
-        }
-
-        .flexbox20 button {
-            height: 4%;
-            font-size: 20pt;
-            color: #0773bb;
-            margin: 1%;
-            width: 30%;
-        }
-
-        .flexbox20 form {
-            margin: 0 auto;
-            background-color: #0773bbd7;
-            padding: 3%;
-            font-family: arial;
-            padding-bottom: 10%;
-        }
-
-        .flexbox20 text {
-            width: 50%;
-        }
-
-        .flexbox20 lname {
-            width: 50%;
-        }
-
-        /* Style inputs with type="text", select elements and textareas */
-        input[type=text],
-        select,
-        textarea {
-            width: 100%;
-            /* Full width */
-            padding: 12px;
-            /* Some padding */
-            border: 1px solid #ccc;
-            /* Gray border */
-            border-radius: 4px;
-            /* Rounded borders */
-            box-sizing: border-box;
-            /* Make sure that padding and width stays in place */
-            margin-top: 6px;
-            /* Add a top margin */
-            margin-bottom: 16px;
-            /* Bottom margin */
-            resize: vertical
-                /* Allow the user to vertically resize the textarea (not horizontally) */
-        }
-
-        /* Style the submit button with a specific background color etc */
-        input[type=submit] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 15pt;
-        }
-
-        /* When moving the mouse over the submit button, add a darker green color */
-        input[type=submit]:hover {
-            background-color: #45a049;
-        }
-
-        /* Add a background color and some padding around the form */
-        .myForm {
-            border-radius: 5px;
-            background-color: #f2f2f2;
-            padding: 20px;
-            width: 2000px;
-        }
-
-
-        .flexbox22 {
-            display: flex;
-            flex-direction: column;
-            align-content: space-around;
-            justify-content: space-evenly;
-            width: 50%;
-            text-align: center;
-        }
-
-        .flexbox23 {
-            display: flex;
-            flex-direction: column;
-            align-content: space-around;
-            justify-content: space-evenly;
-            width: 50%;
-            padding-right: 5%;
-        }
-
-        .flex1 {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            background-size: cover;
-        }
-
-        .flex2 {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            height: 13%;
-            background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
-            background-size: cover;
-        }
-
-        .flex4 {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
-            background-size: cover;
-        }
-
-        .flex5 {
-            display: flex;
-            flex-direction: row;
-        }
-
-        .flex6 {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            background-color:black;
-            padding-bottom: 3%;
-        }
-
-        .flex6 h2{
-            color:#0773bb;
-            font-family: 'Raleway';
-            font-size: 50px;
-            text-align: center;
-        }
-
-        .flex7 {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            background-color: black;
-            padding-bottom: 3%;
-        }
-
-        .flex7 h1{
-            color:#0773bb;
-            font-family: 'Raleway';
-            text-align: center;
-        }
-
-        .flex7 h2{
-            color:#0773bb;
-            font-family: 'Raleway';
-            text-align: center;
-        }
-
-        .flex8 {
-            display: flex;
-            flex-direction: row;
-            padding-left: 5%;
-            text-align: center;
-        }
-
-        .flex9 {
-            display: flex;
-            flex-direction: row;
-        }
-
-        .supplies {
-            width: 100%;
-        }
-
-        .flex10 {
-            display: flex;
-            flex-direction: row;
-        }
-
-        .flex11 {
-            display: flex;
-            flex-direction: row;
-        }
-
-        .flex12 {
-            display: flex;
-            flex-direction: row;
-        }
-
-        .flex27 {
-            display: flex;
-            flex-direction: row;
-            width: 100%;
-            margin-left: 1%;
-            margin-top: 1%;
-            margin-bottom: 1%;
-        }
+    .march {
+        padding-bottom: 3%;
     }
 
-    .flexbox4 {
+    .moveon {
+        color: #0773bb;
+        text-align: center;
+        font-size: 50pt;
+        background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+        background-size: cover;
+    }
+
+    .flexbox1 {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: space-evenly;
+        width: 35%;
+        text-align: center;
+        margin-left: 1%;
+        margin-bottom: 1%;
+        padding: 1%;
+    }
+
+    .flexbox1 h1 {
+        color: #0773bb;
+    }
+
+    .flexbox1 a {
+        color: #0773bb;
+        font-family: 'Raleway';
+        font-size: 35px;
+    }
+
+    .protest {
+        width: 100%;
+        padding-top: 2%;
+    }
+
+    .petitions {
+        width: 100%;
+        padding-top: 2%;
+    }
+
+    .campaigns {
+        width: 100%;
+        padding-top: 2%;
+    }
+
+    .flexbox2 {
         display: flex;
         flex-direction: column;
         align-content: space-around;
         justify-content: space-evenly;
         width: 50%;
         text-align: center;
-        margin-left: 1%;
-        margin-top: 1%;
-        margin-bottom: 1%;
-        padding: 1.7%;
+        padding: 3%;
     }
 
-    .flexbox5 {
+    .flexbox3 {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: space-evenly;
+        width: 32.3%;
+        text-align: center;
+        margin-left: 1%;
+    }
+
+    .flexbox7 {
         display: flex;
         flex-direction: column;
         align-content: space-around;
         justify-content: space-evenly;
         width: 50%;
         text-align: center;
+        background-color: rgba(245, 245, 245, 0.493);
         margin-left: 1%;
         margin-top: 1%;
         margin-bottom: 1%;
-        padding: 1.7%;
     }
-
 
     .flexbox13 {
         display: flex;
         flex-direction: column;
         align-content: space-around;
         justify-content: space-evenly;
-        padding-left: 5%;
-    }
-
-    .flexbox13 h1 {
-        text-align: center;
-        padding-right: 20%;
-        margin-top: 6%;
-        font-family: 'Raleway';
-        font-size: 30px;
-    }
-
-    .flexbox13 h2 {
-        text-align: center;
-        font-family: 'Raleway';
-        font-size: 25px;
-        margin-right: 3%;
-    }
-
-    .flexbox13 p {
-        width: 84%;
-        text-align: left;
-        font-size: 18pt;
-        font-family: 'raleway';
-        color:rgb(233, 229, 229);
-    }
-
-    .blog1 {
         width: 100%;
-        text-align: left;
+        text-align: center;
+    }
+
+    .brunch {
+        width: 80%;
     }
 
     .flexbox14 {
@@ -1110,42 +811,86 @@ input[type=submit]:hover {
         flex-direction: column;
         align-content: space-around;
         justify-content: space-evenly;
-        background-color:black;
-        padding-right: 5%;
-        padding-top: 5%;
-    }
-
-
-    .flexbox14 h1 {
-        text-align: center;
-        margin-top: 9%;
-        margin-left: 60%;
-    }
-
-    .flexbox14 h2 {
-        text-align: center;
-        font-family: 'Raleway';
-        font-size: 25px;
-        padding-bottom: 5%;
-    }
-
-    .riot {
         width: 100%;
+        text-align: center;
     }
 
-    .flexbox14 p {
-        width: 100%;
-        text-align: left;
-        font-size: 18pt;
-        font-family: 'raleway';
-        color:rgb(233, 229, 229);
-    }
 
-    .flexbox25 {
+    .flexbox16 {
         display: flex;
         flex-direction: column;
         align-content: space-around;
-        width: 120%;
+        justify-content: space-evenly;
+        margin-top: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .flexbox16 h1 {
+        padding-right: 3%;
+    }
+
+    .flexbox16 h2 {
+        text-align: center;
+        padding-right: 2%;
+        font-family: 'Raleway';
+        font-size: 25px;
+    }
+
+    .flexbox16 p {
+        text-align: left;
+        width: 97%;
+        font-size: 18pt;
+        font-family: 'raleway';
+        color: rgb(233, 229, 229);
+    }
+
+    .justice {
+        width: 50%;
+    }
+
+    .blackout {
+        width: 100%;
+    }
+
+    .flexbox17 {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        margin-top: 2%;
+        padding-right: 3%;
+    }
+
+    .flexbox17 h1 {
+        padding-right: 6%;
+    }
+
+    .flexbox17 h2 {
+        text-align: center;
+        font-family: 'Raleway';
+        font-size: 25px;
+        padding-right: 4%;
+    }
+
+    .flexbox17 p {
+        text-align: left;
+        width: 97%;
+        font-size: 18pt;
+        font-family: 'raleway';
+        color: rgb(233, 229, 229);
+        padding-top: 12%;
+    }
+
+    .riots {
+        width: 95%;
+        margin-bottom: 9%;
+    }
+
+    .flexbox20 {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        width: 100%;
         color: white;
         background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
         background-size: cover;
@@ -1154,30 +899,346 @@ input[type=submit]:hover {
         font-size: 20px;
     }
 
-    .flexbox25 p{
-        padding-left:25%;
-        padding-right:25%;
-        font-size: 20pt;
-        line-height: 35pt;
+
+    .flexbox20 h1 {
+        color: white;
+        font-size: 35pt;
         font-family: 'Raleway';
-        background-color:#0773bbd7;
-        padding: 2%;
+        text-align: center;
+    }
+
+    .flexbox20 button {
+        height: 4%;
+        font-size: 20pt;
+        color: #0773bb;
+        margin: 1%;
+        width: 30%;
+    }
+
+    .flexbox20 form {
+        margin: 0 auto;
+        background-color: #0773bbd7;
+        padding: 3%;
+        font-family: arial;
+        padding-bottom: 10%;
+    }
+
+    .flexbox20 text {
         width: 50%;
-        margin-left: 23%;
     }
 
-    .flexbox25 h1{
-         font-family: 'Raleway';
-         background-color:#0773bbd7;
-         padding: 2%;
-         padding-left: 23%;
-         width: 29%;
-         margin-left: 23%;
+    .flexbox20 lname {
+        width: 50%;
     }
 
-    /*footer*/
-    .flex3{
-        background-color:#0773bb;
-        padding:3%;
-        height:105px;
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        /* Full width */
+        padding: 12px;
+        /* Some padding */
+        border: 1px solid #ccc;
+        /* Gray border */
+        border-radius: 4px;
+        /* Rounded borders */
+        box-sizing: border-box;
+        /* Make sure that padding and width stays in place */
+        margin-top: 6px;
+        /* Add a top margin */
+        margin-bottom: 16px;
+        /* Bottom margin */
+        resize: vertical
+            /* Allow the user to vertically resize the textarea (not horizontally) */
     }
+
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 15pt;
+    }
+
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    /* Add a background color and some padding around the form */
+    .myForm {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        width: 2000px;
+    }
+
+
+    .flexbox22 {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: space-evenly;
+        width: 50%;
+        text-align: center;
+    }
+
+    .flexbox23 {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: space-evenly;
+        width: 50%;
+        padding-right: 5%;
+    }
+
+    .flex1 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .flex2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 13%;
+        background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+        background-size: cover;
+    }
+
+    .flex4 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+        background-size: cover;
+    }
+
+    .flex5 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex6 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: black;
+        padding-bottom: 3%;
+    }
+
+    .flex6 h2 {
+        color: #0773bb;
+        font-family: 'Raleway';
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .flex7 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: black;
+        padding-bottom: 3%;
+    }
+
+    .flex7 h1 {
+        color: #0773bb;
+        font-family: 'Raleway';
+        text-align: center;
+    }
+
+    .flex7 h2 {
+        color: #0773bb;
+        font-family: 'Raleway';
+        text-align: center;
+    }
+
+    .flex8 {
+        display: flex;
+        flex-direction: row;
+        padding-left: 5%;
+        text-align: center;
+    }
+
+    .flex9 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .supplies {
+        width: 100%;
+    }
+
+    .flex10 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex11 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex12 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex27 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-left: 1%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+}
+
+.flexbox4 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 50%;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1.7%;
+}
+
+.flexbox5 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 50%;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1.7%;
+}
+
+
+.flexbox13 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    padding-left: 5%;
+}
+
+.flexbox13 h1 {
+    text-align: center;
+    margin-top: 6%;
+    font-family: 'Raleway';
+    font-size: 50px;
+    color: #0773bbd7;
+}
+
+.flexbox13 h2 {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 25px;
+    margin-right: 3%;
+}
+
+.flexbox13 p {
+    width: 84%;
+    text-align: left;
+    font-size: 18pt;
+    font-family: 'raleway';
+    color: rgb(233, 229, 229);
+}
+
+.blog1 {
+    width: 100%;
+    text-align: left;
+}
+
+.flexbox14 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+
+.flexbox14 h1 {
+    text-align: center;
+    margin-top: 9%;
+    font-size: 50px;
+    color: #0773bbd7;
+}
+
+.flexbox14 h2 {
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 25px;
+    padding-bottom: 5%;
+}
+
+.riot {
+    width: 100%;
+}
+
+.flexbox14 p {
+    width: 100%;
+    text-align: left;
+    font-size: 18pt;
+    font-family: 'raleway';
+    color: rgb(233, 229, 229);
+}
+
+.flexbox25 {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    width: 100%;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
+    background-size: cover;
+    height: 2000px;
+    padding-top: 3%;
+    font-size: 20px;
+}
+
+.flexbox25 p {
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 20pt;
+    line-height: 35pt;
+    font-family: 'Raleway';
+    background-color: #0773bbd7;
+    padding: 2%;
+    width: 50%;
+    margin-left: 23%;
+}
+
+.flexbox25 h1 {
+    font-family: 'Raleway';
+    background-color: #0773bbd7;
+    padding: 2%;
+    padding-left: 23%;
+    width: 29%;
+    margin-left: 23%;
+}
+
+
+/*footer*/
+.flex3 {
+    background-color: #0773bb;
+    padding: 3%;
+    height: 105px;
+}
