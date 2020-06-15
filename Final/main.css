@@ -410,6 +410,7 @@ input[type=submit]:hover {
 
 @media(min-width: 500px) {
 
+
     .flexbox6 {
         display: flex;
         flex-direction: column;
@@ -469,7 +470,7 @@ input[type=submit]:hover {
 }
 
 .flexbox6 button {
-    margin-left: 30%;
+    margin-left: 32%;
     font-size: 175%;
     color: rgb(233, 229, 229);
     margin-bottom: 4%;
@@ -634,7 +635,9 @@ input[type=submit]:hover {
 }
 
 
+
 @media(min-width: 768px) {
+
 
     .flexbox6 {
         display: none;
@@ -1234,6 +1237,46 @@ input[type=submit]:hover {
     width: 29%;
     margin-left: 23%;
 }
+
+.begin h1{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    color:#0773bb;
+    font-family: 'Raleway';
+    font-size: 50px;
+    text-align: center;
+}
+
+.begin2 h1{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    color:#0773bb;
+    font-family: 'Raleway';
+    font-size: 50px;
+    text-align: center;
+}
+
+.begin3 h1{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    color:#0773bb;
+    font-family: 'Raleway';
+    font-size: 50px;
+    text-align: center;
+}
+
 
 
 /*footer*/
