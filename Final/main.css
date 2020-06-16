@@ -65,7 +65,7 @@ body {
 
 
 .flexbox13 {
-    padding-right: 5%;
+    padding-right: 70px;
 }
 
 .flexbox18 {
@@ -202,7 +202,7 @@ body {
 }
 
 .flexbox16 h1 {
-    padding-right: 3%;
+    padding-right: 15px;
 }
 
 .flexbox16 h2 {
@@ -784,10 +784,8 @@ input[type=submit]:hover {
         flex-direction: column;
         align-content: space-around;
         justify-content: space-evenly;
-        width: 35%;
         text-align: center;
         margin-left: 1%;
-        margin-bottom: 1%;
         padding: 1%;
     }
 
@@ -803,17 +801,14 @@ input[type=submit]:hover {
 
     .protest {
         width: 100%;
-        padding-top: 2%;
     }
 
     .petitions {
         width: 100%;
-        padding-top: 2%;
     }
 
     .campaigns {
         width: 100%;
-        padding-top: 2%;
     }
 
 
@@ -896,18 +891,18 @@ input[type=submit]:hover {
         flex-direction: column;
         align-content: space-around;
         justify-content: space-evenly;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 70px;
+        padding-right: 70px;
         width: 90%;
     }
 
     .flexbox16 h1 {
-        padding-right: 3%;
+        padding-left: 10px;
     }
 
     .flexbox16 h2 {
         text-align: center;
-        padding-right: 2%;
+        padding-right: 10px;
         font-family: 'Raleway';
         font-size: 25px;
     }
@@ -938,14 +933,15 @@ input[type=submit]:hover {
     }
 
     .flexbox17 h1 {
-        padding-right: 6%;
+        padding-right: 70px;
     }
 
     .flexbox17 h2 {
         text-align: center;
         font-family: 'Raleway';
         font-size: 25px;
-        padding-right: 4%;
+        padding-left: 20px;
+        padding-bottom: 35px;
     }
 
     .flexbox17 p {
@@ -1209,12 +1205,12 @@ input[type=submit]:hover {
     flex-direction: column;
     align-content: space-around;
     justify-content: space-evenly;
-    padding-left: 5%;
+    padding-left: 70px;
 }
 
 .flexbox13 h1 {
     text-align: center;
-    margin-top: 6%;
+    margin-top:43px;
     font-family: 'Raleway';
     font-size: 50px;
     color: #0773bbd7;
@@ -1224,11 +1220,11 @@ input[type=submit]:hover {
     text-align: center;
     font-family: 'Raleway';
     font-size: 25px;
-    margin-right: 3%;
+    margin-right: 20px;
 }
 
 .flexbox13 p {
-    width: 84%;
+    width: 100%;
     text-align: left;
     font-size: 18pt;
     font-family: 'raleway';
@@ -1246,14 +1242,13 @@ input[type=submit]:hover {
     align-content: space-around;
     justify-content: space-evenly;
     background-color: black;
-    padding-right: 5%;
+    padding-right: 70px;
     padding-top: 5%;
 }
 
 
 .flexbox14 h1 {
     text-align: center;
-    margin-top: 9%;
     font-size: 50px;
     color: #0773bbd7;
 }
@@ -1262,7 +1257,7 @@ input[type=submit]:hover {
     text-align: center;
     font-family: 'Raleway';
     font-size: 25px;
-    padding-bottom: 5%;
+    padding-bottom: 70px;
 }
 
 .riot {
