@@ -633,6 +633,7 @@ input[type=submit]:hover {
 .flexbox24 h1 {
     font-family: 'Raleway';
     font-size: 42px;
+    color: #0773bb;
 }
 
 .flexbox24 h2 {
@@ -1320,8 +1321,11 @@ input[type=submit]:hover {
     height: 310px;
 }
 
-.flex3 p{
-    font:'Raleway';
-    font-weight:bold;
+.flex3 p {
+    font-family: 'Raleway';
+    font-weight: bold;
     font-size: 20px;
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 7px;
 }

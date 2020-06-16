@@ -154,9 +154,9 @@
         <div class="flexbox24">
 
             <div class="begin1m">
-                <h1>BLOG POSTS</h1>
+                <h1 style="color:white;">BLOG POSTS</h1>
             </div>
-            <h1 style="color:#0773bbd7;">NEW Blog Post</h1>
+            <h1 style="color:#0773bb;">NEW Blog Post</h1>
             <img class="blogm1"
                 src="https://images.unsplash.com/photo-1591713573249-e025f959d418?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80">
             <h2>
@@ -257,6 +257,40 @@
 
         });
 
+
+        $(".begin2 h1").click(function () {
+            $(".begin2 h1").hide("slow");
+        });
+
+        $(".begin2 h1").click(function () {
+            $(".begin3 h1").hide("slow");
+        });
+
+        $(".begin1m h1").click(function () {
+            $(".begin2 h1").hide("slow");
+        });
+
+        $(".begin1m h1").click(function () {
+            $(".begin3 h1").hide("slow");
+        });
+
+        $(".flexbox24 h2").click(function () {
+            $(".flexbox24 p").hide("slow");
+        });
+
+        $(".flexbox24 h2").click(function () {
+            $(".flexbox24 p").show();
+        });
+
+        $(".flexbox19 h2").click(function () {
+            $(".flexbox19 p").hide("slow");
+        });
+
+        $(".flexbox19 h2").click(function () {
+            $(".flexbox19 p").show();
+        });
+
+
         $(".blogm2").click(function () {
             $(".blogm2").attr("src", "save1.jpg")
 
@@ -267,7 +301,7 @@
         <div class="flex3" style="font:'Raleway'">
 
             <p>
-                CONTACT         
+                CONTACT
             </p>
             <p>
                 DONATIONS
@@ -276,7 +310,8 @@
                 START A PETITION
             </p>
             <p>
-                A joint website of MoveOn.org Civic Action 501(c)(4) organization and MoveOn.org Political Action federal political committee. 
+                A joint website of MoveOn.org Civic Action 501(c)(4) organization and MoveOn.org Political Action
+                federal political committee.
             </p>
         </div>
     </footer>
