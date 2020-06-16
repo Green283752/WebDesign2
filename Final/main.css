@@ -1317,5 +1317,11 @@ input[type=submit]:hover {
 .flex3 {
     background-color: #0773bb;
     padding: 3%;
-    height: 105px;
+    height: 310px;
+}
+
+.flex3 p{
+    font:'Raleway';
+    font-weight:bold;
+    font-size: 20px;
 }
