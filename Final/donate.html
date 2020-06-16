@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="navbar.css">
     <title>MoveOn.org</title>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="script.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 </head>
@@ -39,7 +40,7 @@
         </style>
         <div class="flex10">
             <div class="flexbox20">
-                <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                <form name="myForm" onsubmit="return validateForm()" method="post">
                     <h1>Donations</h1>
                     <button>$23</button><button>$49</button><button>$65</button><br>
                     <button>$98</button><button>$137</button><button>$200</button><br>
@@ -54,7 +55,13 @@
                     Zip:<input type="text" zip="zip" value="20500"><br>
                     Credit Card Number:<input type="text" credit="credit" value="1234567890"><br>
                     Expiration Date:<input type="text" exp="exp" value="MM/YYYY"><br>
-                    <input type="submit" value="Submit"><br><br>
+                    <button style= "text-align: center;
+                    font-family: 'Raleway';
+                    font-size: 30px;
+                    color: #0773bb;
+                    width: 150px;
+                    height: 4%; margin: 0 auto; font-weight: bold; margin-top: 2%;" 
+                    id="submit">Submit</button><br><br>
                 </form>
             </div>
         </div>
@@ -74,11 +81,51 @@
                 Zip:<input type="text" zip="zip" value="20500"><br>
                 Credit Card Number:<input type="text" credit="credit" value="1234567890"><br>
                 Expiration Date:<input type="text" exp="exp" value="MM/YYYY"><br>
-                <input type="submit" value="Submit"><br><br>
+                <button style="text-align: center;
+                font-family: 'Raleway';
+                font-size: 30px;
+                color: #0773bb;
+                width: 150px;
+                height: 4%; margin: 0 auto;font-weight: bold; margin-top: 2%;" 
+                id="submit" value="Submit">Submit</button><br><br>
             </form>
         </div>
 
     </main>
+
+    <script>
+
+        $("form").submit(function(){
+            alert("Thank You!");
+        });
+
+        $("#").click(function(){
+            $("form").hide("slow");
+        });
+
+        $("form").click(function(){
+            $('.').show();
+        });
+
+        document.getElementById("form").submit(); 
+
+        $('form').submit(function(event){ event.preventDefault(); 
+        });
+
+        function validateForm() {
+        var x = document.forms["form"]["fname"]["lname"]
+            ["email"]["address"]["city"]["state"]["zip"]
+            ["credit"]["exp"].value;
+        if (x == "fname") {
+            alert("Name must be filled out");
+        return false;
+    }
+  } 
+
+       
+    </script>
+
+
     <footer>
         <div class="flex3">
 

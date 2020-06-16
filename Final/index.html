@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="navbar.css">
     <title>MoveOn.org</title>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="script.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 </head>
@@ -56,7 +57,7 @@
                     Sign up here to volunteer at our events and protests:
 
                     <br>
-                    <button>Volunteer</button><br><br>
+                    <button id="volunteerbtn">Volunteer</button><br><br>
                 </h2>
             </div>
 
@@ -69,7 +70,15 @@
                 <a href="blog.html">Petitions</a><br>
                 <img class="petitions" src="images/sign2.jpg">
                 <a href="donations.html">Campaigns</a><br>
-                <img class="campaigns" src="images/vote8.jpg">
+                <img class="campaigns" src="images/votebw.jpg">
+                
+                <button style= "text-align: center;
+                font-family: 'Raleway';
+                font-size: 30px;
+                color: #0773bb;
+                width: 150px;
+                height: 2%; margin: 0 auto;" 
+                id="vote2">I Voted</button><br><br>
             </div>
         </div>
 
@@ -96,7 +105,7 @@
                     Sign up here to volunteer at our events and protests:
 
                 </h2><br>
-                <button>Volunteer</button><br><br>
+                <button id="volunteerbtn">Volunteer</button><br><br>
             </form>
             <a href="blog.html">NEW Blog Post</a><br>
             <a href="blog.html"><img class="protestm" alt="protestm1"
@@ -105,12 +114,42 @@
             <a href="blog.html">Petitions</a><br>
             <img class="petitionsm" src="images/sign2.jpg">
             <a href="donations.html">Campaigns</a><br>
-            <img class="campaignsm" src="images/vote8.jpg">
+            <img class="campaignsm" src="images/votebw.jpg">
             <img class="marchm2">
         </div>
         </div>
         </div>
     </main>
+    <script>
+
+    $("#vote2").click(function(){
+         $(".campaigns").hide("slow");
+    });
+
+    $("#vote2").click(function(){
+         $('.campaigns').show();
+    });
+
+    $("#volunteerbtn").click(function(){
+         $(".march").hide("slow");
+    });
+
+    $("#volunteerbtn").click(function(){
+         $(".march").show();
+    });
+
+    $(".moveon").click(function(){
+         $('.flex1').hide("slow");
+    });
+
+    $(".moveon").click(function(){
+         $('.flex1').show();
+    });
+
+
+   
+   </script>
+
     <footer>
         <div class="flex3">
 
