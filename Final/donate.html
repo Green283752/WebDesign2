@@ -94,19 +94,13 @@
     </main>
 
     <script>
-
-        $("form").submit(function(){
+    
+        $("#submit").click(function(){
+            $("form").hide();
             alert("Thank You!");
         });
 
-        $("#").click(function(){
-            $("form").hide("slow");
-        });
-
-        $("form").click(function(){
-            $('.').show();
-        });
-
+        
         document.getElementById("form").submit(); 
 
         $('form').submit(function(event){ event.preventDefault(); 
