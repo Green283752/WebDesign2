@@ -18,7 +18,7 @@ body {
 }
 
 .moveonm {
-    color: rgb(81, 126, 185);
+    color:#0773bb;
     text-align: center;
     font-size: 30pt;
     background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
@@ -522,7 +522,7 @@ input[type=submit]:hover {
     padding-bottom: 4%;
 }
 
-.flexbox6 button {
+.volunteerbtnm {
     margin-left: 32%;
     font-size: 175%;
     color: rgb(233, 229, 229);
@@ -1316,14 +1316,6 @@ input[type=submit]:hover {
     margin-left: 23%;
 }
 
-.volunteerbtn{
-    text-align: center;
-    font-family: 'Raleway';
-    font-size: 30px;
-    color: #0773bbd7;
-    width: 150px;
-    height: 2%;
-}
 
 
 
