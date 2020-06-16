@@ -71,14 +71,13 @@
                 <img class="petitions" src="images/sign2.jpg">
                 <a href="donations.html">Campaigns</a><br>
                 <img class="campaigns" src="images/votebw.jpg">
-                
-                <button style= "text-align: center;
+
+                <button style="text-align: center;
                 font-family: 'Raleway';
                 font-size: 30px;
                 color: #0773bb;
                 width: 150px;
-                height: 2%; margin: 0 auto; font-weight: bold;" 
-                id="vote2">I VOTED</button><br><br>
+                height: 2%; margin: 0 auto; font-weight: bold;" id="vote2">I VOTED</button><br><br>
             </div>
         </div>
 
@@ -105,7 +104,7 @@
                     Sign up here to volunteer at our events and protests:
 
                 </h2><br>
-                <button style= "margin-left: 32%;
+                <button style="margin-left: 32%;
                 font-size: 175%;
                 color: rgb(233, 229, 229);
                 margin-bottom: 4%;
@@ -119,77 +118,82 @@
             <img class="petitionsm" src="images/sign2.jpg">
             <a href="donations.html">Campaigns</a><br>
             <img class="campaignsm" src="images/votebw.jpg">
-            <button style= "text-align: center;
+            <button style="text-align: center;
                 font-family: 'Raleway';
                 font-size: 30px;
                 color: #0773bb;
                 width: 150px;
-                height: 2%; margin: 0 auto; font-weight: bold;" 
-                id="vote2m">I VOTED</button><br><br>
-            </div>
-            <img class="marchm2">
+                height: 2%; margin: 0 auto; font-weight: bold;" id="vote2m">I VOTED</button><br><br>
+        </div>
+        <img class="marchm2">
         </div>
         </div>
         </div>
     </main>
     <script>
+        $("#vote2").click(function () {
+            $(".campaigns").attr("src", "votec.jpg")
 
-    $("#vote2").click(function(){
-         $(".campaigns").attr("src","votec.jpg")
+        });
 
-    });
-    
-    // $("#vote2").click(function(){
-    //      $(".campaigns").hide("");
-    // });
+        $("#vote2m").click(function () {
+            $(".campaignsm").attr("src", "votec.jpg")
 
-    // $("#vote2").click(function(){
-    //      $('.campaigns').show();
-    //      $(".campaigns").attr("src","votec.jpg")
-    // });
+        });
 
-    $("#volunteerbtn").click(function(){
-         $(".march").hide("slow");
-    });
+        $(".petitions").click(function () {
+            $(".petitions").attr("src", "sign.jpg")
 
-    $("#volunteerbtn").click(function(){
-         $(".march").show();
-    });
+        });
 
-    $(".moveon").click(function(){
-         $('.flex1').hide("slow");
-    });
+        $(".petitionsm").click(function () {
+            $(".petitionsm").attr("src", "sign.jpg")
 
-    $(".moveon").click(function(){
-         $('.flex1').show();
-    });
+        });
 
-    $("#vote2m").click(function(){
-         $(".campaignsm").hide("slow");
-    });
 
-    $("#vote2m").click(function(){
-         $('.campaignsm').show();
-    });
+        // $("#vote2").click(function(){
+        //      $(".campaigns").hide("");
+        // });
 
-    $("#flexbox6 volunteerbtnm").click(function(){
-         $(".flexbox6 marchm").hide("slow");
-    });
+        // $("#vote2").click(function(){
+        //      $('.campaigns').show();
+        //      $(".campaigns").attr("src","votec.jpg")
+        // });
 
-    $("#flexbox6 volunteerbtnm").click(function(){
-         $(".flexbox6 marchm").show();
-    });
+        $("#volunteerbtn").click(function () {
+            $(".march").hide("slow");
+        });
 
-    $(".moveonm").click(function(){
-         $('.flexbox6 h2').hide("slow");
-    });
+        $("#volunteerbtn").click(function () {
+            $(".march").show();
+        });
 
-    $(".moveonm").click(function(){
-         $('.flexbox6 h2').show();
-    });
+        $(".moveon").click(function () {
+            $('.flex1').hide("slow");
+        });
 
-   
-   </script>
+        $(".moveon").click(function () {
+            $('.flex1').show();
+        });
+
+
+        $("#volunteerbtnm").click(function () {
+            $(".marchm").hide("slow");
+        });
+
+        $("#volunteerbtnm").click(function () {
+            $(".marchm").show();
+        });
+
+        $(".moveonm").click(function () {
+            $('.flexbox6 h2').hide("slow");
+        });
+
+        $(".moveonm").click(function () {
+            $('.flexbox6 h2').show();
+        });
+    </script>
 
     <footer>
         <div class="flex3">

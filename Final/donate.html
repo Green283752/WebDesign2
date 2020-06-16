@@ -40,12 +40,13 @@
         </style>
         <div class="flex10">
             <div class="flexbox20">
-                <form name="myForm" onsubmit="return validateForm()" method="post">
+                <form id="myForm" onsubmit="return validateForm()" method="post">
                     <h1>Donations</h1>
                     <button>$23</button><button>$49</button><button>$65</button><br>
                     <button>$98</button><button>$137</button><button>$200</button><br>
                     <button>$500</button><button>$700</button><button>$1000+</button>
-                    <button>Monthly</button><button style="line-height: 20pt; width: 40%;">Write in amount</button><br><br>
+                    <button>Monthly</button><button style="line-height: 20pt; width: 40%;">Write in
+                        amount</button><br><br>
                     Name: <input type="text" name="fname" value="John"><br>
                     Last Name:<input type="text" lname="lname" value="Doe"><br>
                     Email:<input type="text" email="email" value="John@moveon.com"><br>
@@ -55,23 +56,23 @@
                     Zip:<input type="text" zip="zip" value="20500"><br>
                     Credit Card Number:<input type="text" credit="credit" value="1234567890"><br>
                     Expiration Date:<input type="text" exp="exp" value="MM/YYYY"><br>
-                    <button style= "text-align: center;
+                    <button style="text-align: center;
                     font-family: 'Raleway';
                     font-size: 30px;
                     color: #0773bb;
                     width: 150px;
-                    height: 4%; margin: 0 auto; font-weight: bold; margin-top: 2%;" 
-                    id="submit">Submit</button><br><br>
+                    height: 4%; margin: 0 auto; font-weight: bold; margin-top: 2%;" id="submit">Submit</button><br><br>
                 </form>
             </div>
         </div>
         <div class="flexbox18" style="width: 100%;">
-            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            <form id="myFormm" onsubmit="return validateForm()" method="post">
                 <h1>Donations</h1>
                 <button>$23</button><button>$49</button><button>$65</button><br>
                 <button>$98</button><button>$137</button><button>$200</button><br>
                 <button>$500</button><button>$700</button><button style="width:40%;">$1000+</button>
-                <button style="width:40%;">Monthly</button><button style="line-height: 20pt;width: 40%;height: 6%;">Write in amount</button><br><br>
+                <button style="width:40%;">Monthly</button><button
+                    style="line-height: 20pt;width: 40%;height: 6%;">Write in amount</button><br><br>
                 Name: <input type="text" name="fname" value="John"><br>
                 Last Name:<input type="text" lname="lname" value="Doe"><br>
                 Email:<input type="text" email="email" value="John@moveon.com"><br>
@@ -86,37 +87,57 @@
                 font-size: 30px;
                 color: #0773bb;
                 width: 150px;
-                height: 4%; margin: 0 auto;font-weight: bold; margin-top: 2%;" 
-                id="submit" value="Submit">Submit</button><br><br>
+                height: 4%; margin: 0 auto;font-weight: bold; margin-top: 2%;" id="submitm">Submit</button><br><br>
             </form>
         </div>
 
     </main>
 
     <script>
-    
-        $("#submit").click(function(){
-            $("form").hide();
+        $("#submit").click(function () {
+            $("#myForm").hide();
             alert("Thank You!");
         });
 
-        
-        document.getElementById("form").submit(); 
 
-        $('form').submit(function(event){ event.preventDefault(); 
+        document.getElementById("#myForm").submit();
+
+        $('#myForm').submit(function (event) {
+            event.preventDefault();
         });
 
         function validateForm() {
-        var x = document.forms["form"]["fname"]["lname"]
-            ["email"]["address"]["city"]["state"]["zip"]
-            ["credit"]["exp"].value;
-        if (x == "fname") {
-            alert("Name must be filled out");
-        return false;
-    }
-  } 
+            var x = document.forms["form"]["fname"]["lname"]
+                ["email"]["address"]["city"]["state"]["zip"]
+                ["credit"]["exp"].value;
+            if (x == "fname") {
+                alert("Name must be filled out");
+                return false;
+            }
+        }
 
-       
+        $("#submitm").click(function () {
+            $("#myFormm").hide();
+            alert("Thank You!");
+        });
+
+
+        document.getElementById("#myFormm").submit();
+
+        $('#myFormm').submit(function (event) {
+            event.preventDefault();
+        });
+
+        function validateForm() {
+            var x = document.forms["form"]["fname"]["lname"]
+                ["email"]["address"]["city"]["state"]["zip"]
+                ["credit"]["exp"].value;
+            if (x == "fname") {
+                alert("Name must be filled out");
+                return false;
+            }
+        }
+
     </script>
 
 

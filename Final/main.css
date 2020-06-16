@@ -18,7 +18,7 @@ body {
 }
 
 .moveonm {
-    color:#0773bb;
+    color: #0773bb;
     text-align: center;
     font-size: 30pt;
     background-image: url("https://images.unsplash.com/photo-1537907100179-fc6d314aa5f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=658&q=80");
@@ -197,7 +197,6 @@ body {
     flex-direction: column;
     align-content: space-around;
     justify-content: space-evenly;
-    margin-top: 2%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -259,7 +258,6 @@ body {
 
 .riots {
     width: 95%;
-    margin-bottom: 9%;
 }
 
 
@@ -407,61 +405,61 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-.begin h1{
-    display:none;
+.begin h1 {
+    display: none;
 }
 
 
-.begin h2{
-    display:none;
+.begin h2 {
+    display: none;
 }
 
-.begin h3{
-    display:none;
+.begin h3 {
+    display: none;
 }
 
 
 @media(min-width: 500px) {
 
-    .begin h1{
+    .begin h1 {
         display: flex;
         flex-direction: column;
         align-content: space-around;
         justify-content: space-evenly;
         width: 100%;
         text-align: center;
-        color:#0773bb;
+        color: #0773bb;
         font-family: 'Raleway';
         font-size: 50px;
         text-align: center;
     }
-    
-    .begin2 h1{
+
+    .begin2 h1 {
         display: flex;
         flex-direction: column;
         align-content: space-around;
         justify-content: space-evenly;
         width: 100%;
         text-align: center;
-        color:#0773bb;
+        color: #0773bb;
         font-family: 'Raleway';
         font-size: 50px;
         text-align: center;
     }
-    
-    .begin3 h1{
+
+    .begin3 h1 {
         display: flex;
         flex-direction: column;
         align-content: space-around;
         justify-content: space-evenly;
         width: 100%;
         text-align: center;
-        color:#0773bb;
+        color: #0773bb;
         font-family: 'Raleway';
         font-size: 50px;
         text-align: center;
     }
-    
+
 
 
     .flexbox6 {
@@ -692,7 +690,7 @@ input[type=submit]:hover {
 
 
 @media(min-width: 768px) {
-   
+
     .flexbox6 {
         display: none;
     }
@@ -818,7 +816,7 @@ input[type=submit]:hover {
     }
 
 
-    .flexbox1.vote{
+    .flexbox1.vote {
         text-align: center;
         font-family: 'Raleway';
         font-size: 30px;
@@ -826,8 +824,8 @@ input[type=submit]:hover {
         width: 150px;
         height: 2%;
     }
-    
-    .flexbox1.vote2{
+
+    .flexbox1.vote2 {
         text-align: center;
         font-family: 'Raleway';
         font-size: 30px;
@@ -897,7 +895,6 @@ input[type=submit]:hover {
         flex-direction: column;
         align-content: space-around;
         justify-content: space-evenly;
-        margin-top: 2%;
         padding-left: 5%;
         padding-right: 5%;
         width: 90%;
@@ -928,7 +925,6 @@ input[type=submit]:hover {
 
     .blackout {
         width: 100%;
-        padding-bottom: 40%;
     }
 
     .flexbox17 {
@@ -938,7 +934,6 @@ input[type=submit]:hover {
         margin-top: 2%;
         padding-right: 3%;
         width: 90%;
-        padding-top:83px;
     }
 
     .flexbox17 h1 {
@@ -963,8 +958,7 @@ input[type=submit]:hover {
     }
 
     .riots {
-        width: 95%;
-        margin-bottom: 9%;
+        width: 100%;
     }
 
     .flexbox20 {
